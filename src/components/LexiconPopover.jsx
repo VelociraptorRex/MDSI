@@ -1,6 +1,7 @@
 import { ArrowUpRight, BookOpen, Braces, CircleDot, Hash, Layers3, MapPin, Pin, Volume2, Waypoints, X } from "lucide-react";
 import conjugations from "../data/conjugations.json";
 import { patterns } from "../data/patterns";
+import { sitePath } from "../utils/sitePath";
 import { speakSpanish } from "../utils/speech";
 
 const patternLinks = patterns.reduce((index, pattern) => {
@@ -61,7 +62,7 @@ export function LexiconPopover({item,position,onClose,pinned=false}) {
     {(meta.gender||meta.plural)&&<div className="grammar-facts">{meta.gender&&<div><span><Layers3 size={14}/> Род</span><b>{meta.gender}</b></div>}{meta.plural&&<div><span><Hash size={14}/> Мн. число</span><b className="plural-text" lang="es">{meta.plural}</b></div>}</div>}
     <div className="popover-block forms-block"><div className="popover-label"><Braces size={14}/> Формы и варианты</div>{verbTable?<VerbForms table={verbTable}/>:<p className="form-line" lang="es">{item.forms}</p>}</div>
     <div className="popover-block example-block"><div className="popover-label"><BookOpen size={14}/> Естественный пример</div><blockquote lang="es">{highlightedExample(item,verbTable)}</blockquote><p>{item.exampleRu}</p></div>
-    {meta.patterns.length>0&&<div className="popover-links"><div className="popover-label"><Waypoints size={14}/> Связанные паттерны</div><div className="pattern-chips">{meta.patterns.map((pattern)=><a href={`/es-419/patterns/#${pattern.id}`} title={pattern.function} key={pattern.id}>{pattern.template}<ArrowUpRight size={12}/></a>)}</div></div>}
+    {meta.patterns.length>0&&<div className="popover-links"><div className="popover-label"><Waypoints size={14}/> Связанные паттерны</div><div className="pattern-chips">{meta.patterns.map((pattern)=><a href={sitePath(`/es-419/patterns/#${pattern.id}`)} title={pattern.function} key={pattern.id}>{pattern.template}<ArrowUpRight size={12}/></a>)}</div></div>}
     <div className="popover-note"><MapPin size={14}/><span>Нейтральное латиноамериканское употребление</span></div>
   </aside>;
 }

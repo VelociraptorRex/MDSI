@@ -1,12 +1,13 @@
 import { ArrowRight, BookA, BookOpenCheck, Braces, BrainCircuit, CheckCircle2, ChevronRight, MessageCircle, Search, Sparkles, Target, TestTube2, Waypoints } from "lucide-react";
+import { sitePath } from "../utils/sitePath";
 
 const sections = [
-  { icon: BookA, number: "01", title: "Лексика", text: "500 самых частых слов испанского языка с формами, живыми примерами и озвучкой.", href: "/es-419/lexicon/", accent: "blue", meta: "500 статей" },
-  { icon: BookOpenCheck, number: "02", title: "Грамматика", text: "Минимальный набор правил для настоящего, прошлого и будущего.", href: "/es-419/grammar/", accent: "red", meta: "15 тем" },
-  { icon: Braces, number: "03", title: "Паттерны", text: "Готовые речевые конструкции, из которых собираются новые фразы.", href: "/es-419/patterns/", accent: "purple", meta: "32 модели" },
-  { icon: MessageCircle, number: "04", title: "Диалоги", text: "Короткие естественные ситуации с контролем словаря.", href: "/es-419/dialogues/", accent: "green", meta: "8 ситуаций" },
-  { icon: TestTube2, number: "05", title: "Практика", text: "Проверка узнавания, формы и самостоятельного ответа.", href: "/es-419/tests/", accent: "amber", meta: "2 187 в банке" },
-  { icon: BrainCircuit, number: "06", title: "Карточки", text: "Готовые наборы Anki, Quizlet и Полиглот из общей базы слов, фраз и паттернов.", href: "/es-419/anki/", accent: "slate", meta: "3 формата" }
+  { icon: BookA, number: "01", title: "Лексика", text: "500 самых частых слов испанского языка с формами, живыми примерами и озвучкой.", href: sitePath("/es-419/lexicon/"), accent: "blue", meta: "500 статей" },
+  { icon: BookOpenCheck, number: "02", title: "Грамматика", text: "Минимальный набор правил для настоящего, прошлого и будущего.", href: sitePath("/es-419/grammar/"), accent: "red", meta: "15 тем" },
+  { icon: Braces, number: "03", title: "Паттерны", text: "Готовые речевые конструкции, из которых собираются новые фразы.", href: sitePath("/es-419/patterns/"), accent: "purple", meta: "32 модели" },
+  { icon: MessageCircle, number: "04", title: "Диалоги", text: "Короткие естественные ситуации с контролем словаря.", href: sitePath("/es-419/dialogues/"), accent: "green", meta: "8 ситуаций" },
+  { icon: TestTube2, number: "05", title: "Практика", text: "Проверка узнавания, формы и самостоятельного ответа.", href: sitePath("/es-419/tests/"), accent: "amber", meta: "2 187 в банке" },
+  { icon: BrainCircuit, number: "06", title: "Карточки", text: "Готовые наборы Anki, Quizlet и Полиглот из общей базы слов, фраз и паттернов.", href: sitePath("/es-419/anki/"), accent: "slate", meta: "3 формата" }
 ];
 
 export function HomePage({ onOpenSearch }) {
@@ -19,7 +20,7 @@ export function HomePage({ onOpenSearch }) {
             <h1>Испанский, сведённый<br />к <em>достаточному.</em></h1>
             <p className="hero-lead">Связанная база знаний, которая сокращает путь от первого слова до первой осмысленной коммуникации — без лишней теории.</p>
             <div className="hero-actions">
-              <a className="button primary" href="/es-419/lexicon/">Открыть лексику <ArrowRight size={17} /></a>
+              <a className="button primary" href={sitePath("/es-419/lexicon/")}>Открыть лексику <ArrowRight size={17} /></a>
               <button className="button secondary" onClick={onOpenSearch}><Search size={17} /> Найти материал</button>
             </div>
             <div className="hero-proof">
@@ -38,7 +39,7 @@ export function HomePage({ onOpenSearch }) {
               <div><span className="flag-dot">ES</span><p lang="es">Quiero comprar agua.</p></div>
               <div><span className="flag-dot muted">RU</span><p>Я хочу купить воды.</p></div>
             </div>
-            <div className="showcase-links"><span><Waypoints size={15} /> 4 связанных правила</span><a href="/es-419/patterns/">Открыть <ChevronRight size={14} /></a></div>
+            <div className="showcase-links"><span><Waypoints size={15} /> 4 связанных правила</span><a href={sitePath("/es-419/patterns/")}>Открыть <ChevronRight size={14} /></a></div>
           </div>
         </div>
         <div className="container stats-strip reveal delay-2">
@@ -73,7 +74,7 @@ export function HomePage({ onOpenSearch }) {
             <div className="eyebrow neutral">Метод минимальной достаточности</div>
             <h2>Меньше материала.<br />Больше речевой свободы.</h2>
             <p>Каждый элемент проходит один практический тест: какие новые высказывания мы сможем составить после его освоения?</p>
-            <a className="text-link" href="/es-419/sources/">Как устроен отбор <ArrowRight size={16} /></a>
+            <a className="text-link" href={sitePath("/es-419/sources/")}>Как устроен отбор <ArrowRight size={16} /></a>
           </div>
           <div className="method-list">
             <div className="method-item"><span><Target /></span><div><strong>Частотность + ценность</strong><p>Корпусные данные дополняются прозрачной редакторской оценкой применимости.</p></div></div>
@@ -86,7 +87,7 @@ export function HomePage({ onOpenSearch }) {
       <section className="section start-section" id="future">
         <div className="container start-card">
           <div><span className="mini-label blue">Начать с лексического ядра</span><h2>Лексическая основа уже ждёт!</h2></div>
-          <a className="button light" href="/es-419/lexicon/">Перейти к 500 единицам <ArrowRight size={17} /></a>
+          <a className="button light" href={sitePath("/es-419/lexicon/")}>Перейти к 500 единицам <ArrowRight size={17} /></a>
         </div>
       </section>
     </>

@@ -3,6 +3,7 @@ import { ArrowDownAZ, BookA, ChevronDown, Filter, Info, Search, SlidersHorizonta
 import lexicon from "../data/lexicon.json";
 import { PageToc } from "../components/PageToc";
 import { LexiconPopover } from "../components/LexiconPopover";
+import { sitePath } from "../utils/sitePath";
 
 const toc = [
   { id: "lexicon-controls", label: "Поиск и фильтры" },
@@ -62,7 +63,7 @@ export function LexiconPage() {
     <div className="reference-page lexicon-page">
       <section className="page-hero lexicon-hero compact-hero">
         <div className="container">
-          <div className="breadcrumbs"><a href="/es-419/">Главная</a><span>/</span><span>Лексика</span></div>
+          <div className="breadcrumbs"><a href={sitePath("/es-419/")}>Главная</a><span>/</span><span>Лексика</span></div>
           <div className="reference-hero-grid">
             <div><div className="eyebrow"><span>Ядро 500</span> данные v0.1</div><h1>Слова, из которых<br /><em>собирается речь.</em></h1><p>Частотные леммы, служебные конструкции и речевые паттерны — с формами и естественными примерами.</p></div>
             <div className="hero-index-card lexical"><div><BookA size={18} /><span>Лексическое ядро</span></div><strong>500</strong><p>единиц нейтрального латиноамериканского испанского</p></div>

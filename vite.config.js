@@ -14,7 +14,10 @@ const pages = [
   "es-419/sources/index.html"
 ];
 
+const base = process.env.VITE_BASE_PATH || "/MDSI/";
+
 export default defineConfig({
+  base,
   plugins: [react()],
   build: {
     outDir: "dist",

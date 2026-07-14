@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { AlertCircle, ArrowRight, AudioLines, BookOpen, Braces, ChevronDown, CircleHelp, Clock3, CornerDownRight, Layers3, Megaphone, MessageSquareText, MoveRight, Quote, Sparkles, Split, Type } from "lucide-react";
 import { PageToc } from "../components/PageToc";
 import { ColorLegend } from "../components/ColorLegend";
+import { sitePath } from "../utils/sitePath";
 
 const toc = [
   { id: "reading", label: "Алфавит и чтение" },
@@ -47,7 +48,7 @@ export function GrammarPage() {
     <div className="reference-page">
       <section className="page-hero compact-hero">
         <div className="container">
-          <div className="breadcrumbs"><a href="/es-419/">Главная</a><span>/</span><span>Грамматика</span></div>
+          <div className="breadcrumbs"><a href={sitePath("/es-419/")}>Главная</a><span>/</span><span>Грамматика</span></div>
           <div className="reference-hero-grid">
             <div><div className="eyebrow"><span>Справочник</span> грамматическое ядро v1.2</div><h1>Грамматика,<br /><em>которой достаточно.</em></h1><p>Короткие правила, таблицы и паттерны для базовых высказываний о настоящем, прошлом и будущем.</p></div>
             <div className="hero-index-card"><div><BookOpen size={18} /><span>Объём ядра</span></div><strong>15</strong><p>тем, необходимых для функционального использования первых 500 единиц</p></div>
@@ -152,14 +153,14 @@ export function GrammarPage() {
             <SpoilerSummary kicker="11 · Частотные исключения" title="Основные неправильные глаголы"/>
             <div className="section-kicker">11 · Частотные исключения</div><h2>Основные неправильные глаголы</h2><p className="section-intro">Зелёным показаны формы, которые нельзя надёжно получить по регулярной модели.</p>
             <div className="table-card responsive-table irregular-table"><table><thead><tr><th>Глагол</th><th>yo</th><th>tú</th><th>él / usted</th><th>Прошедшее yo</th></tr></thead><tbody><tr><td lang="es">ser</td><td className="irregular-text">soy</td><td className="irregular-text">eres</td><td className="irregular-text">es</td><td className="irregular-text">fui</td></tr><tr><td lang="es">estar</td><td className="irregular-text">estoy</td><td>estás</td><td>está</td><td className="irregular-text">estuve</td></tr><tr><td lang="es">tener</td><td className="irregular-text">tengo</td><td className="irregular-text">tienes</td><td className="irregular-text">tiene</td><td className="irregular-text">tuve</td></tr><tr><td lang="es">ir</td><td className="irregular-text">voy</td><td className="irregular-text">vas</td><td className="irregular-text">va</td><td className="irregular-text">fui</td></tr><tr><td lang="es">hacer</td><td className="irregular-text">hago</td><td>haces</td><td>hace</td><td className="irregular-text">hice</td></tr><tr><td lang="es">poder</td><td className="irregular-text">puedo</td><td className="irregular-text">puedes</td><td className="irregular-text">puede</td><td className="irregular-text">pude</td></tr><tr><td lang="es">decir</td><td className="irregular-text">digo</td><td className="irregular-text">dices</td><td className="irregular-text">dice</td><td className="irregular-text">dije</td></tr></tbody></table></div>
-            <a className="inline-callout" href="/es-419/lexicon/?q=ser"><span><MessageSquareText size={19} /><b>Открыть формы в словарных статьях</b></span><ArrowRight size={17} /></a>
+            <a className="inline-callout" href={sitePath("/es-419/lexicon/?q=ser")}><span><MessageSquareText size={19} /><b>Открыть формы в словарных статьях</b></span><ArrowRight size={17} /></a>
           </details>
 
           <details id="patterns" className="grammar-section grammar-spoiler">
             <SpoilerSummary kicker="12 · Немедленная речь" title="Основные паттерны"/>
             <div className="section-kicker">12 · Немедленная речь</div><h2>Основные паттерны</h2><p className="section-intro">Паттерн можно использовать раньше, чем вы изучите полное объяснение всех его частей.</p>
             <div className="pattern-grid">
-              {[['Quiero {infinitivo}.','желание','Quiero aprender español.'],['No puedo {infinitivo}.','возможность','No puedo hablar ahora.'],['Tengo que {infinitivo}.','необходимость','Tengo que salir temprano.'],['Me gusta {sustantivo}.','предпочтение','Me gusta esta canción.'],['Creo que {frase}.','мнение','Creo que va a llover.'],['¿Dónde está {lugar}?','местонахождение','¿Dónde está el baño?']].map(([pattern,fn,example]) => <a href="/es-419/patterns/" className="pattern-tile" key={pattern}><span>{fn}</span><h3 lang="es">{pattern}</h3><p lang="es">{example}</p><ArrowRight size={16} /></a>)}
+              {[['Quiero {infinitivo}.','желание','Quiero aprender español.'],['No puedo {infinitivo}.','возможность','No puedo hablar ahora.'],['Tengo que {infinitivo}.','необходимость','Tengo que salir temprano.'],['Me gusta {sustantivo}.','предпочтение','Me gusta esta canción.'],['Creo que {frase}.','мнение','Creo que va a llover.'],['¿Dónde está {lugar}?','местонахождение','¿Dónde está el baño?']].map(([pattern,fn,example]) => <a href={sitePath("/es-419/patterns/")} className="pattern-tile" key={pattern}><span>{fn}</span><h3 lang="es">{pattern}</h3><p lang="es">{example}</p><ArrowRight size={16} /></a>)}
             </div>
           </details>
         </article>

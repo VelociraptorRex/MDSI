@@ -3,12 +3,13 @@ import { ArrowRight, BookA, BrainCircuit, Command, FileText, MessageCircle, Sear
 import lexicon from "../data/lexicon.json";
 import { patterns } from "../data/patterns";
 import { dialogues } from "../data/dialogues";
+import { sitePath } from "../utils/sitePath";
 
 const sections = [
-  { label: "Грамматика: настоящее время", href: "/es-419/grammar/#present", icon: FileText },
-  { label: "Грамматика: вопросы", href: "/es-419/grammar/#questions", icon: FileText },
-  { label: "Паттерны желания и намерения", href: "/es-419/patterns/", icon: Shapes },
-  { label: "Карточки Anki, Quizlet и Полиглот", href: "/es-419/anki/", icon: BrainCircuit }
+  { label: "Грамматика: настоящее время", href: sitePath("/es-419/grammar/#present"), icon: FileText },
+  { label: "Грамматика: вопросы", href: sitePath("/es-419/grammar/#questions"), icon: FileText },
+  { label: "Паттерны желания и намерения", href: sitePath("/es-419/patterns/"), icon: Shapes },
+  { label: "Карточки Anki, Quizlet и Полиглот", href: sitePath("/es-419/anki/"), icon: BrainCircuit }
 ];
 
 export function SearchDialog({ open, onClose }) {
@@ -36,10 +37,10 @@ export function SearchDialog({ open, onClose }) {
 
   const results = useMemo(() => {
     const normalized = query.trim().toLowerCase();
-    if (!normalized) return lexicon.slice(0, 5).map((item) => ({...item, kind:"lexicon", title:item.lemma, meta:`${item.translation} · ${item.type}`, href:`/es-419/lexicon/?q=${encodeURIComponent(item.lemma)}&open=${item.id}`}));
-    const lexical = lexicon.filter((item) => [item.lemma, item.translation, item.forms, item.example].join(" ").toLowerCase().includes(normalized)).map((item)=>({...item,kind:"lexicon",title:item.lemma,meta:`${item.translation} · ${item.type}`,href:`/es-419/lexicon/?q=${encodeURIComponent(item.lemma)}&open=${item.id}`}));
-    const patternResults = patterns.filter((item)=>[item.template,item.translation,item.function,...item.examples.flat()].join(" ").toLowerCase().includes(normalized)).map((item)=>({id:item.id,kind:"pattern",title:item.template,meta:`Паттерн · ${item.function}`,href:`/es-419/patterns/#${item.category}`}));
-    const dialogueResults = dialogues.filter((item)=>[item.title,item.situation,...item.lines.flat()].join(" ").toLowerCase().includes(normalized)).map((item)=>({id:item.id,kind:"dialogue",title:item.title,meta:`Диалог · ${item.situation}`,href:`/es-419/dialogues/#${item.id}`}));
+    if (!normalized) return lexicon.slice(0, 5).map((item) => ({...item, kind:"lexicon", title:item.lemma, meta:`${item.translation} · ${item.type}`, href:sitePath(`/es-419/lexicon/?q=${encodeURIComponent(item.lemma)}&open=${item.id}`)}));
+    const lexical = lexicon.filter((item) => [item.lemma, item.translation, item.forms, item.example].join(" ").toLowerCase().includes(normalized)).map((item)=>({...item,kind:"lexicon",title:item.lemma,meta:`${item.translation} · ${item.type}`,href:sitePath(`/es-419/lexicon/?q=${encodeURIComponent(item.lemma)}&open=${item.id}`)}));
+    const patternResults = patterns.filter((item)=>[item.template,item.translation,item.function,...item.examples.flat()].join(" ").toLowerCase().includes(normalized)).map((item)=>({id:item.id,kind:"pattern",title:item.template,meta:`Паттерн · ${item.function}`,href:sitePath(`/es-419/patterns/#${item.category}`)}));
+    const dialogueResults = dialogues.filter((item)=>[item.title,item.situation,...item.lines.flat()].join(" ").toLowerCase().includes(normalized)).map((item)=>({id:item.id,kind:"dialogue",title:item.title,meta:`Диалог · ${item.situation}`,href:sitePath(`/es-419/dialogues/#${item.id}`)}));
     return [...lexical,...patternResults,...dialogueResults].slice(0, 8);
   }, [query]);
 

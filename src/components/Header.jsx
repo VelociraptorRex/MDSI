@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
 import { BookOpen, ChevronDown, Menu, Moon, Search, Sun, X } from "lucide-react";
+import { sitePath } from "../utils/sitePath";
 
 const nav = [
-  { id: "home", label: "Главная", href: "/es-419/" },
-  { id: "lexicon", label: "Лексика", href: "/es-419/lexicon/" },
-  { id: "grammar", label: "Грамматика", href: "/es-419/grammar/" },
-  { id: "patterns", label: "Паттерны", href: "/es-419/patterns/" },
-  { id: "dialogues", label: "Диалоги", href: "/es-419/dialogues/" },
-  { id: "tests", label: "Практика", href: "/es-419/tests/" },
-  { id: "anki", label: "Карточки", href: "/es-419/anki/" }
+  { id: "home", label: "Главная", href: sitePath("/es-419/") },
+  { id: "lexicon", label: "Лексика", href: sitePath("/es-419/lexicon/") },
+  { id: "grammar", label: "Грамматика", href: sitePath("/es-419/grammar/") },
+  { id: "patterns", label: "Паттерны", href: sitePath("/es-419/patterns/") },
+  { id: "dialogues", label: "Диалоги", href: sitePath("/es-419/dialogues/") },
+  { id: "tests", label: "Практика", href: sitePath("/es-419/tests/") },
+  { id: "anki", label: "Карточки", href: sitePath("/es-419/anki/") }
 ];
 
 export function Header({ page, onSearch, theme, onTheme }) {
@@ -18,7 +19,7 @@ export function Header({ page, onSearch, theme, onTheme }) {
   return (
     <header className="site-header">
       <div className="header-inner">
-        <a className="brand" href="/es-419/" aria-label="MDSI — на главную">
+        <a className="brand" href={sitePath("/es-419/")} aria-label="MDSI — на главную">
           <span className="brand-mark"><BookOpen size={19} strokeWidth={2.2} /></span>
           <span><strong>MDSI</strong><small>español esencial</small></span>
         </a>
@@ -29,7 +30,7 @@ export function Header({ page, onSearch, theme, onTheme }) {
               {item.label}
             </a>
           ))}
-          <a href="/es-419/sources/" className={`nav-more ${page === "sources" ? "active" : ""}`}>Методика <ChevronDown size={14} /></a>
+          <a href={sitePath("/es-419/sources/")} className={`nav-more ${page === "sources" ? "active" : ""}`}>Методика <ChevronDown size={14} /></a>
         </nav>
 
         <div className="header-actions">

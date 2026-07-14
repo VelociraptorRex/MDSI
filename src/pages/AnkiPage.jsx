@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { PageToc } from "../components/PageToc";
 import manifest from "../data/ankiManifest.json";
+import { sitePath } from "../utils/sitePath";
 
 const toc = [
   { id:"deck-structure", label:"Состав карточек" },
@@ -25,15 +26,15 @@ const toc = [
   { id:"generation", label:"Архитектура данных" }
 ];
 
-const ankiHref = `/downloads/${manifest.filename}`;
-const quizletHref = `/downloads/${manifest.quizletFilename}`;
-const polyglotHref = `/downloads/${manifest.polyglotFilename}`;
+const ankiHref = sitePath(`/downloads/${manifest.filename}`);
+const quizletHref = sitePath(`/downloads/${manifest.quizletFilename}`);
+const polyglotHref = sitePath(`/downloads/${manifest.polyglotFilename}`);
 
 export function AnkiPage() {
   return <div className="reference-page anki-page">
     <section className="page-hero anki-hero compact-hero">
       <div className="container">
-        <div className="breadcrumbs"><a href="/es-419/">Главная</a><span>/</span><span>Карточки</span></div>
+        <div className="breadcrumbs"><a href={sitePath("/es-419/")}>Главная</a><span>/</span><span>Карточки</span></div>
         <div className="reference-hero-grid">
           <div>
             <div className="eyebrow"><span>Anki, Quizlet и Полиглот</span> MDSI v{manifest.version}</div>

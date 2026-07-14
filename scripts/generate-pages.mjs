@@ -45,10 +45,10 @@ fs.writeFileSync(path.resolve("index.html"), `<!doctype html>
   </style>
 </head>
 <body>
-  <main class="card"><div class="mark">M</div><h1>MDSI · español esencial</h1><p id="status">Открываем испанское ядро…</p><div class="local" id="local"><b>Этот файл открыт напрямую с диска.</b><br>Современные браузеры не разрешают так загружать модули сайта. Запустите файл <code>Открыть MDSI.command</code> из готового локального пакета.</div><a class="server" id="link" href="/es-419/">Перейти к сайту</a><small>Лексическое ядро содержит 500 единиц.</small></main>
+  <main class="card"><div class="mark">M</div><h1>MDSI · español esencial</h1><p id="status">Открываем испанское ядро…</p><div class="local" id="local"><b>Этот файл открыт напрямую с диска.</b><br>Современные браузеры не разрешают так загружать модули сайта. Запустите файл <code>Открыть MDSI.command</code> из готового локального пакета.</div><a class="server" id="link" href="./es-419/">Перейти к сайту</a><small>Лексическое ядро содержит 500 единиц.</small></main>
   <script>
     if(location.protocol === "file:") { document.getElementById("local").style.display="block"; document.getElementById("status").textContent="Для локальной версии нужен мини-сервер."; document.getElementById("link").style.display="none"; }
-    else { location.replace("/es-419/"); }
+    else { location.replace(new URL("es-419/", location.href).href); }
   </script>
 </body>
 </html>`);
