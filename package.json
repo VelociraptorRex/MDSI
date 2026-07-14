@@ -1,0 +1,31 @@
+{
+  "name": "mdsi-esencial",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "import:lexicon": "node scripts/import-lexicon.mjs",
+    "generate": "node scripts/generate-pages.mjs",
+    "generate:conjugations": "node scripts/generate-conjugations.mjs",
+    "generate:anki": "node scripts/generate-anki.mjs",
+    "generate:quizlet": "node scripts/generate-quizlet.mjs",
+    "generate:cards": "npm run generate:anki && npm run generate:quizlet",
+    "dev": "npm run generate && npm run generate:conjugations && vite",
+    "build": "npm run generate && npm run generate:conjugations && vite build && node scripts/prepare-sites.mjs",
+    "package:local": "npm run build && node scripts/make-local-package.mjs",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@fontsource/manrope": "latest",
+    "@fontsource/source-serif-4": "latest",
+    "@jirimracek/conjugate-esp": "^2.3.6",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "xlsx": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest"
+  }
+}

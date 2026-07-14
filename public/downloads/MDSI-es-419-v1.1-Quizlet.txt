@@ -1,0 +1,1044 @@
+el	определённый артикль, м.р.
+la	определённый артикль, ж.р.
+un	неопределённый артикль, м.р.
+una	неопределённый артикль, ж.р.
+de	из; от; о; принадлежность
+que	что; который
+y	и
+a	к; в; личное a
+en	в; на
+ser	быть; являться
+se	себя; ему/ей; показатель возвратности
+no	не; нет
+haber	иметься; вспомогательный глагол
+por	по; через; из-за; за
+con	с
+su	его; её; их; Ваш
+para	для; чтобы; к сроку
+como	как; поскольку
+estar	быть; находиться; чувствовать себя
+tener	иметь
+le	ему; ей; Вам
+lo	его; это; то, что
+todo	весь; всё
+pero	но
+más	больше; ещё
+hacer	делать
+o	или
+poder	мочь
+decir	говорить; сказать
+este	этот
+ir	идти; ехать
+otro	другой; ещё один
+ese	тот; этот у тебя
+si	если
+me	меня; мне; себя (1 л.)
+ya	уже; сейчас; больше не
+ver	видеть; смотреть
+porque	потому что
+dar	давать
+cuando	когда
+él	он
+muy	очень
+sin	без
+la vez	раз
+mucho	много; очень
+saber	знать; уметь
+qué	что; какой
+sobre	о; над; на; конверт
+mi	мой
+alguno	какой-нибудь; некоторый
+mismo	тот же; сам
+yo	я
+también	тоже; также
+hasta	до; даже
+el año	год
+dos	два
+querer	хотеть; любить
+entre	между; среди
+así	так; таким образом
+primero	первый; сначала
+desde	из; с; начиная с
+grande	большой; великий
+eso	это; то
+ni	ни; и не
+nos	нас; нам; себя (1 л. мн.)
+llegar	прибывать; приходить
+pasar	проходить; проводить; случаться
+el tiempo	время; погода
+ella	она
+sí	да; себя
+el día	день
+uno	один; некто
+bien	хорошо; благо
+poco	мало; немного
+deber	быть должным; следует
+entonces	тогда; значит
+poner	класть; ставить; надевать
+la cosa	вещь; дело
+tanto	столько; так сильно
+el hombre	мужчина; человек
+parecer	казаться
+nuestro	наш
+tan	такой; настолько
+donde	где; куда
+ahora	сейчас
+la parte	часть; сторона
+después	после; потом
+la vida	жизнь
+quedar	оставаться; находиться; договариваться
+siempre	всегда
+creer	верить; считать
+hablar	говорить; разговаривать
+llevar	нести; носить; отвозить; занимать время
+dejar	оставлять; позволять; прекращать
+nada	ничто; ничего
+cada	каждый
+seguir	следовать; продолжать
+menos	меньше; кроме
+nuevo	новый
+encontrar	находить; встречать
+algo	что-то; немного
+solo	один; только
+llamar	звать; звонить
+venir	приходить; приезжать
+pensar	думать; намереваться
+salir	выходить; уезжать
+volver	возвращаться; снова делать
+tomar	брать; пить; принимать
+conocer	знать; быть знакомым
+vivir	жить
+sentir	чувствовать; сожалеть
+tratar	пытаться; обращаться; быть о
+mirar	смотреть
+contar	считать; рассказывать
+empezar	начинать
+esperar	ждать; надеяться
+buscar	искать
+existir	существовать
+entrar	входить
+trabajar	работать
+escribir	писать
+perder	терять; проигрывать
+producir	производить; вызывать
+ocurrir	происходить; приходить в голову
+entender	понимать
+pedir	просить; заказывать
+recibir	получать; принимать
+recordar	помнить; напоминать
+terminar	заканчивать
+permitir	позволять
+aparecer	появляться
+conseguir	добывать; добиваться; суметь
+comenzar	начинать
+servir	служить; подавать; быть полезным
+sacar	вынимать; получать; фотографировать
+necesitar	нуждаться
+mantener	поддерживать; сохранять
+resultar	оказываться; получаться
+leer	читать
+caer	падать; нравиться
+cambiar	менять(ся)
+presentar	представлять; предъявлять
+crear	создавать
+abrir	открывать
+considerar	считать; рассматривать
+oír	слышать
+acabar	заканчивать; только что сделать
+ganar	выигрывать; зарабатывать
+formar	образовывать; формировать
+traer	приносить; привозить
+partir	уезжать; делить; отправляться
+morir	умирать
+aceptar	принимать; соглашаться
+realizar	осуществлять; проводить
+suponer	предполагать; означать
+comprender	понимать; включать
+lograr	добиваться; суметь
+explicar	объяснять
+preguntar	спрашивать
+tocar	трогать; играть; выпадать очередь
+reconocer	узнавать; признавать
+estudiar	учиться; изучать
+alcanzar	достигать; хватать; догонять
+nacer	рождаться
+dirigir	руководить; направлять
+correr	бежать
+utilizar	использовать
+pagar	платить
+ayudar	помогать
+gustar	нравиться
+jugar	играть
+escuchar	слушать
+cumplir	выполнять; исполняться (о возрасте)
+ofrecer	предлагать
+descubrir	обнаруживать; открывать
+levantar	поднимать; вставать
+intentar	пытаться
+usar	использовать; носить
+decidir	решать
+repetir	повторять
+comer	есть
+beber	пить
+comprar	покупать
+vender	продавать
+cerrar	закрывать
+dormir	спать
+caminar	ходить пешком
+viajar	путешествовать
+cocinar	готовить
+aprender	учить; узнавать
+enseñar	учить; показывать
+enviar	отправлять
+contestar	отвечать
+elegir	выбирать
+olvidar	забывать
+preparar	готовить; подготавливать
+limpiar	чистить; убирать
+lavar	мыть; стирать
+manejar	водить; управлять
+conducir	водить; вести
+subir	подниматься; загружать
+bajar	спускаться; снижать
+romper	ломать
+arreglar	чинить; приводить в порядок
+encender	включать; зажигать
+apagar	выключать; гасить
+la persona	человек; лицо
+la casa	дом
+el mundo	мир
+el lugar	место
+el país	страна
+el momento	момент
+la forma	форма; способ
+la mujer	женщина; жена
+el niño	ребёнок; мальчик
+la familia	семья
+la mano	рука; кисть
+el problema	проблема
+el caso	случай; дело
+el punto	точка; пункт; момент
+el gobierno	правительство; управление
+la ciudad	город
+el nombre	имя; название
+el agua	вода
+la noche	ночь; вечер
+la madre	мать
+el padre	отец; родитель
+el amigo	друг
+el dinero	деньги
+la historia	история; рассказ
+la calle	улица
+la comida	еда; приём пищи
+la hora	час; время
+la palabra	слово
+la escuela	школа
+la gente	люди
+la verdad	правда
+la semana	неделя
+el libro	книга
+la puerta	дверь
+la mañana	утро; завтра
+el hijo	сын; ребёнок
+la cabeza	голова
+el lado	сторона; бок
+el señor	господин; мужчина
+el fin	конец; цель
+el mes	месяц
+el tipo	тип; вид; парень
+el ejemplo	пример
+el tema	тема; вопрос
+el grupo	группа
+la razón	причина; правота
+la idea	идея
+el cuerpo	тело
+la información	информация
+el ojo	глаз
+el servicio	услуга; обслуживание; служба
+el minuto	минута
+la mesa	стол
+el equipo	команда; оборудование
+la realidad	реальность
+la educación	образование; воспитание
+la voz	голос
+el resultado	результат
+padres	родители
+la oficina	офис; кабинет
+el cambio	изменение; сдача; обмен
+el proceso	процесс
+la música	музыка
+el juego	игра
+el mercado	рынок
+el sentido	смысл; чувство; направление
+el centro	центр
+el programa	программа
+la pregunta	вопрос
+el trabajador	работник; трудолюбивый
+la empresa	компания; предприятие
+el número	число; номер
+el segundo	секунда; второй
+la cuenta	счёт; аккаунт; расчёт
+la calidad	качество
+el calor	жара; тепло
+el aire	воздух
+el papel	бумага; роль
+el interés	интерес; процент
+la película	фильм
+la noticia	новость
+la libertad	свобода
+el derecho	право; юриспруденция
+el sistema	система
+el carro	автомобиль
+el coche	автомобиль (понятно, чаще Испания)
+la computadora	компьютер
+el teléfono	телефон
+el mensaje	сообщение
+la foto	фотография
+el internet	интернет
+el archivo	файл; архив
+la contraseña	пароль
+la tienda	магазин
+el precio	цена
+la tarjeta	карта; карточка
+el efectivo	наличные; эффективный
+el banco	банк; скамья
+el restaurante	ресторан
+el café	кофе; кафе
+el pan	хлеб
+la leche	молоко
+la carne	мясо
+el pollo	курица; цыплёнок
+el arroz	рис
+la fruta	фрукт; фрукты
+el desayuno	завтрак
+el almuerzo	обед
+la cena	ужин
+el cuarto	комната; четверть; четвёртый
+la habitación	комната; номер
+el baño	ванная; туалет
+la cocina	кухня; кухня как традиция
+la cama	кровать
+la ropa	одежда
+el zapato	туфля; ботинок
+la llave	ключ
+la ventana	окно
+la luz	свет; лампа
+la salud	здоровье; «будь здоров»
+el doctor	врач; доктор
+el hospital	больница
+el dolor	боль
+la medicina	лекарство; медицина
+la cita	встреча; запись; цитата
+el viaje	поездка; путешествие
+el avión	самолёт
+el tren	поезд
+el autobús	автобус
+la estación	станция; вокзал; сезон
+el aeropuerto	аэропорт
+el camino	дорога; путь
+el mapa	карта
+el trabajo	работа; труд
+la reunión	встреча; собрание
+el proyecto	проект
+el jefe	начальник
+el empleado	сотрудник; занятый, применённый
+la clase	занятие; класс; вид
+la universidad	университет
+el idioma	язык
+la respuesta	ответ
+la fiesta	праздник; вечеринка
+el partido	матч; партия
+el parque	парк
+la playa	пляж
+el mar	море
+tiempo libre	свободное время
+bueno	хороший
+malo	плохой
+mejor	лучший; лучше
+peor	худший; хуже
+mayor	больший; старший
+menor	меньший; младший; несовершеннолетний
+importante	важный
+posible	возможный
+necesario	необходимый
+diferente	другой; отличающийся
+igual	одинаковый; всё равно; так же
+fácil	лёгкий; простой
+difícil	трудный
+claro	ясный; светлый; конечно
+seguro	уверенный; безопасный; страховка
+cierto	определённый; верный
+largo	длинный
+corto	короткий
+alto	высокий; громкий
+bajo	низкий; под
+rápido	быстрый; быстро
+lento	медленный; медленно
+fuerte	сильный; крепкий; громко
+débil	слабый
+joven	молодой; молодой человек
+viejo	старый
+pequeño	маленький
+bonito	красивый; милый
+feo	некрасивый; неприятный
+feliz	счастливый
+triste	грустный
+cansado	уставший
+ocupado	занятый
+libre	свободный; свободно
+listo	готовый; сообразительный
+abierto	открытый
+cerrado	закрытый
+caliente	горячий; тёплый
+frío	холодный; холод
+limpio	чистый
+sucio	грязный
+caro	дорогой
+barato	дешёвый
+lleno	полный; заполненный
+vacío	пустой
+cerca	близко
+lejos	далеко
+aquí	здесь; сюда
+allí	там
+ahí	там; вот там
+hoy	сегодня
+ayer	вчера
+tarde	поздно; вечер
+temprano	рано
+nunca	никогда
+casi	почти
+luego	потом; затем
+antes	раньше; до
+todavía	ещё; всё ещё
+quizá	возможно
+pronto	скоро; быстро
+juntos	вместе
+aparte	отдельно; кроме того
+afuera	снаружи; наружу
+adentro	внутри; внутрь
+arriba	наверху; вверх
+abajo	внизу; вниз
+adelante	вперёд; проходите
+atrás	назад; позади
+despacio	медленно
+demasiado	слишком; слишком много
+gracias	спасибо
+por favor	пожалуйста
+de nada	не за что
+perdón	простите; прощение
+disculpe	извините (вежл.)
+buenos días	доброе утро; добрый день
+buenas tardes	добрый день; добрый вечер
+buenas noches	добрый вечер; спокойной ночи
+hola	привет; здравствуйте
+adiós	до свидания; прощай
+hasta luego	до скорого; увидимся позже
+nos vemos	увидимся
+¿cómo estás?	как ты?
+¿qué tal?	как дела?; как прошло?
+mucho gusto	очень приятно
+encantado	приятно познакомиться
+¿cómo te llamas?	как тебя зовут?
+me llamo...	меня зовут...
+¿de dónde eres?	откуда ты?
+soy de...	я из...
+no entiendo	я не понимаю
+no sé	я не знаю
+¿puede repetir?	можете повторить?
+más despacio, por favor	помедленнее, пожалуйста
+¿qué significa...?	что значит...?
+¿cómo se dice...?	как сказать...?
+¿cuánto cuesta?	сколько стоит?
+quisiera...	я хотел(а) бы...
+me gustaría...	мне бы хотелось...
+necesito...	мне нужно...
+tener que + infinitivo	быть вынужденным; нужно
+hay que + infinitivo	нужно; следует
+se puede	можно
+no se puede	нельзя
+poder + infinitivo	мочь сделать
+querer + infinitivo	хотеть сделать
+ir a + infinitivo	собираться сделать; ближайшее будущее
+estar + gerundio	быть в процессе действия
+acabar de + infinitivo	только что сделать
+volver a + infinitivo	сделать снова
+dejar de + infinitivo	перестать делать
+tratar de + infinitivo	стараться; пытаться
+tener ganas de	хотеть; иметь желание
+tener miedo	бояться
+tener razón	быть правым
+tener hambre	быть голодным
+tener sed	хотеть пить
+tener sueño	хотеть спать
+tener frío / calor	мёрзнуть / чувствовать жар
+hacer + tiempo	стоять (о погоде)
+hay	есть; имеется
+hace... que	уже столько-то времени
+desde hace	на протяжении; уже
+estar de acuerdo	быть согласным
+no importa	неважно; ничего страшного
+da igual	всё равно; без разницы
+depende	зависит
+claro que sí	конечно; разумеется
+creo que	я думаю, что
+me parece que	мне кажется, что
+es que	дело в том, что; просто
+lo que	то, что
+lo mismo	то же самое
+por eso	поэтому
+además	кроме того; к тому же
+sin embargo	однако
+aunque	хотя; даже если
+mientras	пока; в то время как
+por ejemplo	например
+en general	в целом
+en serio	серьёзно; правда?
+a veces	иногда
+todos los días	каждый день
+otra vez	снова; ещё раз
+a tiempo	вовремя
+Quiero {infinitivo}.	Я хочу {действие}.
+Me gustaría {sustantivo / infinitivo}.	Мне хотелось бы {что-то / сделать что-то}.
+Voy a {infinitivo}.	Я собираюсь {сделать}.
+Pienso {infinitivo}.	Я намерен {сделать}.
+Puedo {infinitivo}.	Я могу {сделать}.
+Tengo que {infinitivo}.	Мне нужно {сделать}.
+Hay que {infinitivo}.	Нужно {сделать}.
+Necesito {sustantivo / infinitivo}.	Мне нужно {что-то / сделать что-то}.
+¿Se puede {infinitivo} aquí?	Здесь можно {сделать}?
+Hay {sustantivo}.	Есть {что-то}.
+{persona / cosa} está en {lugar}.	{Кто-то / что-то} находится {где-то}.
+{lugar} queda cerca / lejos de {punto}.	{Место} находится близко / далеко от {точки}.
+Estoy {gerundio}.	Я сейчас {делаю}.
+Me gusta / gustan {sustantivo / infinitivo}.	Мне нравится / нравятся {что-то / действие}.
+Creo que {frase}.	Я думаю, что {мысль}.
+Me parece {adjetivo} / que {frase}.	Мне кажется {каким-то} / что {мысль}.
+Estoy de acuerdo con {persona / idea}.	Я согласен с {человеком / идеей}.
+{persona} tiene razón.	{Человек} прав.
+¿Puedes {infinitivo}, por favor?	Можешь {сделать}, пожалуйста?
+Quisiera {sustantivo / infinitivo}.	Я хотел(а) бы {что-то / сделать}.
+¿Dónde está {lugar / cosa}?	Где находится {место / предмет}?
+¿Cuánto cuesta {sustantivo}?	Сколько стоит {предмет}?
+¿Qué significa {palabra}?	Что означает {слово}?
+¿Cómo se dice {expresión} en español?	Как сказать {выражение} по-испански?
+{imperativo}, por favor.	{Сделайте}, пожалуйста.
+No {imperativo negativo}.	Не {делайте}.
+Acabo de {infinitivo}.	Я только что {сделал}.
+Vuelvo a {infinitivo}.	Я снова {делаю}.
+Dejo de {infinitivo}.	Я перестаю {делать}.
+{presente} desde hace {periodo}.	{Действие продолжается} уже {период}.
+Si {presente}, {presente / futuro}.	Если {условие}, {результат}.
+{A} es más / menos {adjetivo} que {B}.	{A} более / менее {какой-то}, чем {B}.
+Quiero aprender español.	Я хочу выучить испанский.
+¿Dónde está la estación?	Где находится вокзал?
+Vamos a comer aquí.	Мы собираемся поесть здесь.
+Me gustan las películas antiguas.	Мне нравятся старые фильмы.
+Ayer trabajé hasta las seis.	Вчера я работал до шести.
+Aquí no se puede fumar.	Здесь нельзя курить.
+Tengo que salir temprano.	Мне нужно уйти рано.
+Hay una farmacia cerca.	Рядом есть аптека.
+Creo que es una buena idea.	Думаю, это хорошая идея.
+Puedo ayudarte mañana.	Я могу помочь тебе завтра.
+Vivimos aquí desde hace dos años.	Мы живём здесь уже два года.
+¿Cuánto cuestan estos zapatos?	Сколько стоят эти ботинки?
+Acabamos de llegar al hotel.	Мы только что приехали в отель.
+Si quieres, vamos juntos.	Если хочешь, пойдём вместе.
+La oficina está en el tercer piso.	Офис находится на третьем этаже.
+Necesito comprar un cargador.	Мне нужно купить зарядку.
+¿Puede repetir más despacio?	Можете повторить помедленнее?
+No encuentro mis llaves.	Я не могу найти свои ключи.
+Primero comemos y después salimos.	Сначала мы едим, а потом выходим.
+Este libro es más fácil que el otro.	Эта книга легче другой.
+Abre la ventana, por favor.	Открой окно, пожалуйста.
+No hables tan rápido.	Не говори так быстро.
+Dime la verdad.	Скажи мне правду.
+Esperen aquí un momento.	Подождите здесь минутку.
+El libro está en la mesa.	Книга лежит на столе.
+La casa está cerca.	Дом находится рядом.
+Necesito un minuto.	Мне нужна минута.
+Tengo una pregunta.	У меня есть вопрос.
+Soy de México.	Я из Мексики.
+Creo que tiene razón.	Думаю, он прав.
+Trabajo y estudio.	Я работаю и учусь.
+Voy a casa.	Я иду домой.
+Vivo en Lima.	Я живу в Лиме.
+Ella es médica.	Она врач.
+Se llama Ana.	Её зовут Ана.
+No entiendo.	Я не понимаю.
+Hay café en la cocina.	На кухне есть кофе.
+Gracias por venir.	Спасибо, что пришёл.
+Vengo con mi hermana.	Я приду с сестрой.
+¿Cuál es su nombre?	Как вас зовут?
+Esto es para ti.	Это для тебя.
+Hazlo como quieras.	Сделай как хочешь.
+Estoy en casa.	Я дома.
+Tengo dos hermanos.	У меня два брата.
+Le escribí ayer.	Я написал ему вчера.
+No lo sé.	Я этого не знаю.
+Todo está bien.	Всё хорошо.
+Quiero ir, pero no puedo.	Я хочу пойти, но не могу.
+Necesito más tiempo.	Мне нужно больше времени.
+¿Qué haces hoy?	Что ты делаешь сегодня?
+¿Café o té?	Кофе или чай?
+¿Puedes ayudarme?	Ты можешь мне помочь?
+Este lugar me gusta.	Мне нравится это место.
+Voy al trabajo en autobús.	Я еду на работу на автобусе.
+Quiero otro vaso de agua.	Я хочу ещё стакан воды.
+¿Qué es eso?	Что это?
+Me gusta esta canción.	Мне нравится эта песня.
+Ya terminé.	Я уже закончил.
+Nos vemos mañana.	Увидимся завтра.
+No fui porque estaba enfermo.	Я не пошёл, потому что был болен.
+¿Me das tu número?	Дашь мне свой номер?
+Llámame cuando llegues.	Позвони мне, когда приедешь.
+Él trabaja conmigo.	Он работает со мной.
+La comida está muy rica.	Еда очень вкусная.
+Salí sin paraguas.	Я вышел без зонта.
+Esta vez llegué temprano.	В этот раз я пришёл рано.
+Hoy tengo mucho trabajo.	Сегодня у меня много работы.
+No sé la respuesta.	Я не знаю ответа.
+¿Qué necesitas?	Что тебе нужно?
+Hablamos sobre el viaje.	Мы говорили о поездке.
+Mi familia vive aquí.	Моя семья живёт здесь.
+¿Tienes alguna duda?	У тебя есть какой-нибудь вопрос?
+Tenemos el mismo problema.	У нас та же проблема.
+Yo puedo hacerlo.	Я могу это сделать.
+Yo también quiero ir.	Я тоже хочу пойти.
+Trabajo hasta las seis.	Я работаю до шести.
+El año pasado viajé a Chile.	В прошлом году я ездил в Чили.
+Tengo dos entradas.	У меня два билета.
+La farmacia está entre el banco y el café.	Аптека находится между банком и кафе.
+No se hace así.	Так не делают.
+Primero vamos a comer.	Сначала поедим.
+Vivo aquí desde 2020.	Я живу здесь с 2020 года.
+Necesitamos una mesa grande.	Нам нужен большой стол.
+Eso no es verdad.	Это неправда.
+No come carne ni pescado.	Он не ест ни мяса, ни рыбы.
+Nos llamaron esta mañana.	Нам позвонили сегодня утром.
+Llegamos a tiempo.	Мы пришли вовремя.
+¿Qué pasó ayer?	Что случилось вчера?
+No tengo tiempo ahora.	У меня сейчас нет времени.
+Ella estudia arquitectura.	Она изучает архитектуру.
+Sí, estoy de acuerdo.	Да, я согласен.
+Hoy fue un buen día.	Сегодня был хороший день.
+Solo necesito uno.	Мне нужен только один.
+¿Estás bien?	Ты в порядке?
+Tengo poco dinero.	У меня мало денег.
+Debes descansar.	Тебе следует отдохнуть.
+Entonces, ¿qué hacemos?	Тогда что будем делать?
+Pon el teléfono en la mesa.	Положи телефон на стол.
+Tengo muchas cosas que hacer.	У меня много дел.
+No trabajes tanto.	Не работай так много.
+Ese hombre es mi vecino.	Этот мужчина — мой сосед.
+Me parece buena idea.	Мне кажется, это хорошая идея.
+Nuestra casa queda cerca.	Наш дом находится рядом.
+No es tan difícil.	Это не так сложно.
+Quédate donde estás.	Оставайся там, где стоишь.
+Ahora no puedo hablar.	Сейчас я не могу говорить.
+Esta es la mejor parte.	Это лучшая часть.
+Hablamos después.	Поговорим потом.
+La vida aquí es tranquila.	Жизнь здесь спокойная.
+El hotel queda cerca del centro.	Отель находится недалеко от центра.
+Siempre desayuno en casa.	Я всегда завтракаю дома.
+Creo que va a llover.	Думаю, будет дождь.
+¿Hablas español?	Ты говоришь по-испански?
+Llevo tres años aquí.	Я живу здесь уже три года.
+Déjame pensar.	Дай мне подумать.
+No pasó nada.	Ничего не случилось.
+Voy al gimnasio cada día.	Я хожу в спортзал каждый день.
+Sigue todo recto.	Иди всё время прямо.
+Hoy hay menos gente.	Сегодня людей меньше.
+Compré un teléfono nuevo.	Я купил новый телефон.
+Quiero comer algo.	Я хочу что-нибудь съесть.
+Vivo solo, pero no me siento solo.	Я живу один, но не чувствую себя одиноким.
+Te llamo esta noche.	Я позвоню тебе сегодня вечером.
+¿Vienes con nosotros?	Ты идёшь с нами?
+Estoy pensando en cambiar de trabajo.	Я думаю о смене работы.
+Salgo de casa a las ocho.	Я выхожу из дома в восемь.
+Vuelvo el lunes.	Я вернусь в понедельник.
+Voy a tomar un café.	Я выпью кофе.
+Conozco bien la ciudad.	Я хорошо знаю город.
+Vivo con dos amigos.	Я живу с двумя друзьями.
+Siento mucho lo que pasó.	Мне очень жаль, что так вышло.
+Trato de llegar temprano.	Я стараюсь приходить рано.
+Mira esta foto.	Посмотри на эту фотографию.
+Te cuento luego.	Я расскажу тебе потом.
+La clase empieza a las nueve.	Урок начинается в девять.
+Te espero afuera.	Я жду тебя снаружи.
+Busco un departamento para alquilar.	Я ищу квартиру в аренду.
+No existe una solución perfecta.	Идеального решения не существует.
+Puedes entrar.	Можешь войти.
+Trabajo desde casa los viernes.	По пятницам я работаю из дома.
+Escríbeme cuando llegues.	Напиши мне, когда приедешь.
+Perdí el autobús.	Я опоздал на автобус.
+La empresa produce café.	Компания производит кофе.
+¿Qué ocurrió aquí?	Что здесь произошло?
+Ahora entiendo el problema.	Теперь я понимаю проблему.
+Voy a pedir la cuenta.	Я попрошу счёт.
+Recibí tu mensaje.	Я получил твоё сообщение.
+No recuerdo su nombre.	Я не помню его имени.
+Termino de trabajar a las seis.	Я заканчиваю работать в шесть.
+Aquí no permiten fumar.	Здесь не разрешают курить.
+Mi nombre no aparece en la lista.	Моего имени нет в списке.
+Conseguí una cita para mañana.	Мне удалось записаться на завтра.
+La película comienza en diez minutos.	Фильм начнётся через десять минут.
+Este cargador no sirve.	Эта зарядка не работает.
+Voy a sacar una foto.	Я сфотографирую.
+Necesito descansar un poco.	Мне нужно немного отдохнуть.
+Mantén la puerta cerrada.	Держи дверь закрытой.
+El examen resultó más fácil de lo esperado.	Экзамен оказался легче, чем ожидалось.
+Estoy leyendo una novela.	Я читаю роман.
+Se me cayó el teléfono.	Я уронил телефон.
+Quiero cambiar de asiento.	Я хочу пересесть.
+Te presento a mi amiga Laura.	Познакомься с моей подругой Лаурой.
+Queremos crear algo útil.	Мы хотим создать что-то полезное.
+¿Puedes abrir la ventana?	Можешь открыть окно?
+Considero que es demasiado caro.	Я считаю, что это слишком дорого.
+No te oigo bien.	Я тебя плохо слышу.
+Acabo de llegar.	Я только что приехал.
+Nuestro equipo ganó el partido.	Наша команда выиграла матч.
+El curso forma parte del programa.	Курс является частью программы.
+¿Puedes traer agua?	Можешь принести воды?
+El tren parte a las siete.	Поезд отправляется в семь.
+La planta murió por falta de agua.	Растение погибло из-за нехватки воды.
+Acepté la propuesta.	Я принял предложение.
+Mañana realizarán una prueba.	Завтра проведут испытание.
+Supongo que llegará tarde.	Полагаю, он опоздает.
+Comprendo tu preocupación.	Я понимаю твоё беспокойство.
+Logramos resolver el problema.	Нам удалось решить проблему.
+¿Puedes explicarlo otra vez?	Можешь объяснить ещё раз?
+Quiero preguntarte algo.	Я хочу тебя кое о чём спросить.
+Ahora te toca a ti.	Теперь твоя очередь.
+No lo reconocí al principio.	Сначала я его не узнал.
+Estudio español por las noches.	Я учу испанский по вечерам.
+No alcanza el dinero.	Денег не хватает.
+Nací en Bogotá.	Я родился в Боготе.
+Ella dirige el proyecto.	Она руководит проектом.
+Corro en el parque cada mañana.	Я бегаю в парке каждое утро.
+Puedes utilizar mi computadora.	Можешь воспользоваться моим компьютером.
+¿Puedo pagar con tarjeta?	Можно заплатить картой?
+Gracias por ayudarme.	Спасибо за помощь.
+Los niños juegan afuera.	Дети играют на улице.
+Escucho música mientras trabajo.	Я слушаю музыку во время работы.
+Mañana cumplo veintisiete años.	Завтра мне исполняется двадцать семь лет.
+Me ofrecieron un café.	Мне предложили кофе.
+Descubrimos un restaurante excelente.	Мы нашли отличный ресторан.
+Me levanto a las siete.	Я встаю в семь.
+Voy a intentarlo de nuevo.	Я попробую ещё раз.
+No uso efectivo.	Я не пользуюсь наличными.
+Todavía no he decidido.	Я ещё не решил.
+¿Puede repetir, por favor?	Повторите, пожалуйста.
+¿Dónde quieres comer?	Где ты хочешь поесть?
+Bebe más agua.	Пей больше воды.
+Compré pan y leche.	Я купил хлеб и молоко.
+Aquí venden frutas frescas.	Здесь продают свежие фрукты.
+La tienda cierra a las ocho.	Магазин закрывается в восемь.
+Anoche dormí muy bien.	Сегодня ночью я отлично спал.
+Podemos caminar hasta el centro.	Мы можем дойти до центра пешком.
+Viajo por trabajo una vez al mes.	Я езжу по работе раз в месяц.
+Hoy cocino yo.	Сегодня готовлю я.
+Estoy aprendiendo a manejar.	Я учусь водить.
+Mi abuelo me enseñó a cocinar.	Дедушка научил меня готовить.
+Te envío el archivo ahora.	Я сейчас отправлю тебе файл.
+No contestó mi mensaje.	Он не ответил на моё сообщение.
+Puedes elegir cualquiera.	Можешь выбрать любой.
+Olvidé apagar la luz.	Я забыл выключить свет.
+Estoy preparando la cena.	Я готовлю ужин.
+Tenemos que limpiar la cocina.	Нам нужно убрать кухню.
+Voy a lavar la ropa.	Я постираю одежду.
+No me gusta manejar de noche.	Я не люблю водить ночью.
+Ella conduce con cuidado.	Она водит осторожно.
+Sube al segundo piso.	Поднимись на второй этаж.
+Bajamos en la próxima parada.	Мы выходим на следующей остановке.
+Se rompió la pantalla.	Экран разбился.
+Van a arreglar la computadora.	Они починят компьютер.
+Enciende el aire acondicionado.	Включи кондиционер.
+Apaga la luz al salir.	Выключи свет, когда будешь выходить.
+Es una persona muy amable.	Это очень добрый человек.
+Mi casa está cerca del parque.	Мой дом находится рядом с парком.
+Quiero conocer el mundo.	Я хочу увидеть мир.
+Este es un buen lugar para comer.	Это хорошее место, чтобы поесть.
+Es la primera vez que visito este país.	Я впервые посещаю эту страну.
+Espera un momento, por favor.	Подожди минутку, пожалуйста.
+Hay otra forma de hacerlo.	Есть другой способ это сделать.
+La mujer de azul es mi profesora.	Женщина в синем — моя преподавательница.
+Los niños ya están dormidos.	Дети уже спят.
+Mi familia vive en otra ciudad.	Моя семья живёт в другом городе.
+Lávate las manos antes de comer.	Помой руки перед едой.
+Tenemos un pequeño problema.	У нас небольшая проблема.
+En ese caso, vamos mañana.	В таком случае пойдём завтра.
+Estoy de acuerdo con ese punto.	Я согласен с этим пунктом.
+El gobierno anunció nuevas medidas.	Правительство объявило о новых мерах.
+La ciudad cambia mucho de noche.	Ночью город сильно меняется.
+No recuerdo el nombre del hotel.	Я не помню название отеля.
+¿Me trae un vaso de agua?	Принесите мне стакан воды.
+Nos vemos esta noche.	Увидимся сегодня вечером.
+Mi madre cocina muy bien.	Моя мама отлично готовит.
+Mis padres viven en el campo.	Мои родители живут за городом.
+Voy al cine con unos amigos.	Я иду в кино с друзьями.
+No llevo suficiente dinero.	У меня с собой недостаточно денег.
+Cuéntame la historia completa.	Расскажи мне всю историю.
+Hay una farmacia al final de la calle.	В конце улицы есть аптека.
+La comida ya está lista.	Еда уже готова.
+¿A qué hora empieza?	Во сколько начинается?
+No entiendo esta palabra.	Я не понимаю этого слова.
+La escuela queda a dos calles.	Школа находится в двух кварталах.
+Hay mucha gente en la estación.	На станции много людей.
+Para decir la verdad, estoy cansado.	Честно говоря, я устал.
+La próxima semana tengo vacaciones.	На следующей неделе у меня отпуск.
+Este libro es fácil de leer.	Эту книгу легко читать.
+Deja la puerta abierta.	Оставь дверь открытой.
+Te llamo mañana por la mañana.	Я позвоню тебе завтра утром.
+Tienen dos hijos pequeños.	У них двое маленьких детей.
+Me duele la cabeza.	У меня болит голова.
+El banco está al otro lado de la calle.	Банк находится на другой стороне улицы.
+Ese señor pregunta por ti.	Этот мужчина спрашивает тебя.
+Por fin terminó la reunión.	Наконец собрание закончилось.
+El próximo mes viajo a Perú.	В следующем месяце я еду в Перу.
+¿Qué tipo de música te gusta?	Какая музыка тебе нравится?
+¿Puedes darme un ejemplo?	Можешь привести пример?
+Prefiero no hablar de ese tema.	Я предпочитаю не говорить на эту тему.
+Trabajo con un grupo pequeño.	Я работаю с небольшой группой.
+Tienes razón.	Ты прав.
+Tengo una idea mejor.	У меня есть идея получше.
+Después de correr me duele todo el cuerpo.	После бега у меня болит всё тело.
+Necesito más información.	Мне нужно больше информации.
+Me entró algo en el ojo.	Мне что-то попало в глаз.
+El servicio fue excelente.	Обслуживание было отличным.
+Llegaré en cinco minutos.	Я буду через пять минут.
+Reservé una mesa para dos.	Я забронировал столик на двоих.
+Nuestro equipo trabaja muy bien junto.	Наша команда отлично работает вместе.
+La realidad es más complicada.	В действительности всё сложнее.
+La educación pública es gratuita.	Государственное образование бесплатно.
+No reconozco esa voz.	Я не узнаю этот голос.
+Todavía no sabemos el resultado.	Мы ещё не знаем результата.
+Mis padres llegan el sábado.	Мои родители приезжают в субботу.
+¿Tiene cambio de cien?	У вас есть сдача со ста?
+El proceso puede tardar varios días.	Процесс может занять несколько дней.
+Me gusta escuchar música mientras cocino.	Я люблю слушать музыку, пока готовлю.
+Este juego es más difícil de lo que parece.	Эта игра сложнее, чем кажется.
+Compro verduras en el mercado.	Я покупаю овощи на рынке.
+Esa respuesta no tiene sentido.	Этот ответ не имеет смысла.
+El museo está en el centro.	Музей находится в центре.
+El programa empieza después de las noticias.	Программа начинается после новостей.
+Es una pregunta difícil.	Это сложный вопрос.
+Los trabajadores llegaron temprano.	Работники пришли рано.
+La empresa busca nuevos empleados.	Компания ищет новых сотрудников.
+Anota mi número de teléfono.	Запиши мой номер телефона.
+Espera un segundo.	Подожди секунду.
+La cuenta, por favor.	Счёт, пожалуйста.
+La calidad del sonido es muy buena.	Качество звука очень хорошее.
+Hace mucho calor hoy.	Сегодня очень жарко.
+Necesito salir a tomar aire.	Мне нужно выйти подышать.
+Escribe tu nombre en este papel.	Напиши своё имя на этой бумаге.
+No tengo ningún interés en venderlo.	Я совершенно не заинтересован это продавать.
+La película terminó muy tarde.	Фильм закончился очень поздно.
+Tengo una buena noticia.	У меня хорошая новость.
+La libertad también implica responsabilidad.	Свобода также предполагает ответственность.
+Todos tienen derecho a opinar.	Каждый имеет право высказать мнение.
+El sistema no funciona bien.	Система работает плохо.
+Dejé el carro frente a la casa.	Я оставил машину перед домом.
+El coche necesita gasolina.	Машине нужен бензин.
+Mi computadora está muy lenta.	Мой компьютер работает очень медленно.
+Mi teléfono no tiene batería.	У моего телефона разрядилась батарея.
+Te dejé un mensaje.	Я оставил тебе сообщение.
+¿Nos tomamos una foto?	Сфотографируемся?
+No tengo internet en casa.	У меня дома нет интернета.
+No puedo abrir el archivo.	Я не могу открыть файл.
+Olvidé mi contraseña.	Я забыл пароль.
+La tienda abre a las diez.	Магазин открывается в десять.
+¿Cuál es el precio final?	Какова окончательная цена?
+Pagué con tarjeta.	Я заплатил картой.
+Solo aceptan efectivo.	Они принимают только наличные.
+Tengo que ir al banco.	Мне нужно сходить в банк.
+Conozco un restaurante cerca de aquí.	Я знаю ресторан неподалёку.
+Tomo café sin azúcar.	Я пью кофе без сахара.
+Voy a comprar pan.	Я пойду куплю хлеб.
+¿Quieres leche en el café?	Хочешь молока в кофе?
+No como mucha carne.	Я ем мало мяса.
+Pedí pollo con arroz.	Я заказал курицу с рисом.
+El arroz todavía no está listo.	Рис ещё не готов.
+Como fruta todos los días.	Я ем фрукты каждый день.
+El desayuno está incluido.	Завтрак включён.
+Nos vemos después del almuerzo.	Увидимся после обеда.
+La cena estará lista a las ocho.	Ужин будет готов в восемь.
+Mi cuarto tiene una ventana grande.	В моей комнате большое окно.
+La habitación está limpia.	Номер чистый.
+¿Dónde está el baño?	Где туалет?
+Quiero irme a la cama temprano.	Я хочу лечь спать пораньше.
+Esta ropa todavía está mojada.	Эта одежда ещё мокрая.
+Estos zapatos son muy cómodos.	Эта обувь очень удобная.
+No encuentro la llave de la puerta.	Я не могу найти ключ от двери.
+Se fue la luz.	Отключили электричество.
+La salud es lo primero.	Здоровье важнее всего.
+Tengo cita con la doctora mañana.	Я записан к врачу на завтра.
+Lo llevaron al hospital.	Его отвезли в больницу.
+El dolor empezó ayer.	Боль началась вчера.
+Toma la medicina después de comer.	Принимай лекарство после еды.
+Tengo una cita a las cuatro.	У меня встреча в четыре.
+¿Qué tal estuvo el viaje?	Как прошла поездка?
+El avión sale a las seis.	Самолёт вылетает в шесть.
+Perdimos el último tren.	Мы опоздали на последний поезд.
+Voy en autobús al trabajo.	Я езжу на работу на автобусе.
+La estación queda lejos.	Вокзал находится далеко.
+¿Cuánto se tarda en llegar al aeropuerto?	Сколько времени ехать до аэропорта?
+Estamos en camino.	Мы уже в пути.
+Busca la dirección en el mapa.	Найди адрес на карте.
+Hoy salgo tarde del trabajo.	Сегодня я поздно ухожу с работы.
+La reunión duró dos horas.	Собрание длилось два часа.
+El proyecto está casi terminado.	Проект почти завершён.
+Mi jefa está en una reunión.	Моя начальница на совещании.
+La empresa tiene cien empleados.	В компании сто сотрудников.
+La clase de español empieza pronto.	Урок испанского скоро начнётся.
+Estudia historia en la universidad.	Он изучает историю в университете.
+¿Cuántos idiomas hablas?	На скольких языках ты говоришь?
+No sé la respuesta correcta.	Я не знаю правильного ответа.
+La fiesta terminó a medianoche.	Вечеринка закончилась в полночь.
+¿Viste el partido anoche?	Ты смотрел вчерашний матч?
+Vamos a caminar por el parque.	Пойдём прогуляемся по парку.
+La playa está llena de gente.	На пляже полно людей.
+El mar está tranquilo hoy.	Сегодня море спокойное.
+En mi tiempo libre leo y cocino.	В свободное время я читаю и готовлю.
+Es un buen momento para hablar.	Сейчас подходящий момент поговорить.
+Tuve un mal día.	У меня был плохой день.
+Ahora me siento mejor.	Теперь я чувствую себя лучше.
+El tráfico está peor que ayer.	Пробки хуже, чем вчера.
+Mi hermana mayor vive en Quito.	Моя старшая сестра живёт в Кито.
+Es un problema menor.	Это незначительная проблема.
+Tengo algo importante que decirte.	Мне нужно сказать тебе кое-что важное.
+Quiero llegar lo antes posible.	Я хочу приехать как можно скорее.
+No es necesario reservar.	Бронировать необязательно.
+Esta vez fue diferente.	В этот раз всё было иначе.
+Los dos cuestan igual.	Оба стоят одинаково.
+La aplicación es fácil de usar.	Приложением легко пользоваться.
+Es difícil encontrar trabajo aquí.	Здесь трудно найти работу.
+Claro, te ayudo.	Конечно, я тебе помогу.
+¿Estás seguro de la dirección?	Ты уверен в адресе?
+Es cierto que todo cambió.	Верно, что всё изменилось.
+Fue un viaje largo.	Это была долгая поездка.
+El camino más corto pasa por el centro.	Самый короткий путь проходит через центр.
+Habla más alto, por favor.	Говори громче, пожалуйста.
+La mesa es demasiado baja.	Стол слишком низкий.
+El servicio fue rápido.	Обслуживание было быстрым.
+Hoy el internet está lento.	Сегодня интернет работает медленно.
+El café está muy fuerte.	Кофе очень крепкий.
+Después de la enfermedad se sentía débil.	После болезни он чувствовал слабость.
+Es joven, pero tiene mucha experiencia.	Он молод, но у него большой опыт.
+Mi computadora ya está vieja.	Мой компьютер уже старый.
+Vivimos en un departamento pequeño.	Мы живём в маленькой квартире.
+Qué bonito lugar.	Какое красивое место.
+Hace un tiempo feo hoy.	Сегодня плохая погода.
+Me hace feliz verte.	Я рад тебя видеть.
+La noticia me dejó triste.	Новость меня расстроила.
+Estoy cansado, pero bien.	Я устал, но всё в порядке.
+Ahora estoy ocupado; te llamo después.	Сейчас я занят, позвоню позже.
+¿Estás libre esta tarde?	Ты свободен сегодня вечером?
+La comida está lista.	Еда готова.
+El museo está abierto los domingos.	Музей открыт по воскресеньям.
+La puerta estaba cerrada.	Дверь была закрыта.
+Cuidado, el plato está caliente.	Осторожно, тарелка горячая.
+El agua está muy fría.	Вода очень холодная.
+El baño está limpio.	В ванной чисто.
+Tus zapatos están sucios.	Твои ботинки грязные.
+Ese hotel es demasiado caro.	Этот отель слишком дорогой.
+Encontramos un vuelo barato.	Мы нашли дешёвый билет на самолёт.
+El autobús está lleno.	Автобус переполнен.
+El vaso está vacío.	Стакан пуст.
+La estación está cerca de aquí.	Станция находится неподалёку.
+El aeropuerto queda lejos del centro.	Аэропорт находится далеко от центра.
+Puedes sentarte aquí.	Можешь сесть здесь.
+Dejé las llaves allí.	Я оставил ключи там.
+Pon la caja ahí.	Поставь коробку туда.
+Hoy trabajo desde casa.	Сегодня я работаю из дома.
+Ayer llovió todo el día.	Вчера весь день шёл дождь.
+Llegué tarde a la reunión.	Я опоздал на встречу.
+Mañana tengo que levantarme temprano.	Завтра мне нужно рано встать.
+Nunca he estado en Argentina.	Я никогда не был в Аргентине.
+Ya casi terminamos.	Мы уже почти закончили.
+Primero comemos y luego salimos.	Сначала поедим, а потом выйдем.
+Antes vivía en otra ciudad.	Раньше я жил в другом городе.
+Todavía no estoy listo.	Я ещё не готов.
+Quizá llueva esta noche.	Возможно, сегодня вечером будет дождь.
+Espero verte pronto.	Надеюсь вскоре тебя увидеть.
+Podemos hacerlo juntos.	Мы можем сделать это вместе.
+Quiero hablar contigo aparte.	Я хочу поговорить с тобой наедине.
+Te espero afuera del edificio.	Я жду тебя у здания.
+Hace frío; vamos adentro.	Холодно; пойдём внутрь.
+El baño está arriba.	Туалет наверху.
+Te espero abajo.	Я жду тебя внизу.
+Adelante, la puerta está abierta.	Входите, дверь открыта.
+Mira atrás antes de cruzar.	Посмотри назад перед тем, как переходить.
+Habla más despacio, por favor.	Говори помедленнее, пожалуйста.
+Comí demasiado.	Я слишком много съел.
+Gracias por tu ayuda.	Спасибо за твою помощь.
+Una mesa para dos, por favor.	Столик на двоих, пожалуйста.
+—Gracias. —De nada.	—Спасибо. —Не за что.
+Perdón, ¿esta silla está libre?	Простите, этот стул свободен?
+Disculpe, ¿cómo llego al centro?	Извините, как добраться до центра?
+Buenos días, tengo una cita a las diez.	Доброе утро, я записан на десять.
+Buenas tardes, ¿en qué puedo ayudarle?	Добрый день, чем я могу вам помочь?
+Buenas noches, que descanses.	Спокойной ночи, хорошо отдохни.
+Hola, ¿cómo estás?	Привет, как ты?
+Adiós, nos vemos mañana.	Пока, увидимся завтра.
+Tengo que irme. Hasta luego.	Мне пора идти. До скорого.
+Nos vemos después de clase.	Увидимся после занятия.
+¿Qué tal el viaje?	Как прошла поездка?
+Mucho gusto, soy Andrés.	Очень приятно, я Андрес.
+Encantada de conocerte.	Очень приятно познакомиться.
+Perdón, ¿cómo te llamas?	Извини, как тебя зовут?
+Me llamo Daniel.	Меня зовут Даниэль.
+¿De dónde eres, Sofía?	Откуда ты, София?
+Soy de Colombia, pero vivo en Chile.	Я из Колумбии, но живу в Чили.
+Perdón, no entiendo la pregunta.	Простите, я не понимаю вопроса.
+No sé dónde está.	Я не знаю, где он находится.
+No escuché bien. ¿Puede repetir?	Я плохо расслышал. Можете повторить?
+¿Puede hablar más despacio, por favor?	Можете говорить помедленнее, пожалуйста?
+¿Qué significa esta palabra?	Что значит это слово?
+¿Cómo se dice esto en español?	Как это сказать по-испански?
+Disculpe, ¿cuánto cuesta esta camisa?	Извините, сколько стоит эта рубашка?
+Quisiera reservar una habitación.	Я хотел бы забронировать номер.
+Me gustaría hablar contigo.	Мне хотелось бы поговорить с тобой.
+Hay que reservar con tiempo.	Бронировать нужно заранее.
+¿Se puede pagar con tarjeta?	Можно заплатить картой?
+Aquí no se puede estacionar.	Здесь нельзя парковаться.
+Podemos hablar mañana.	Мы можем поговорить завтра.
+Quiero aprender a cocinar.	Я хочу научиться готовить.
+Voy a llamarte esta noche.	Я позвоню тебе сегодня вечером.
+Estamos esperando el autobús.	Мы ждём автобус.
+Voy a volver a intentarlo.	Я попробую ещё раз.
+Dejó de llover.	Дождь прекратился.
+Trata de dormir un poco.	Постарайся немного поспать.
+Tengo ganas de viajar.	Мне хочется попутешествовать.
+Tengo miedo de llegar tarde.	Я боюсь опоздать.
+Creo que tienes razón.	Думаю, ты прав.
+Tengo hambre; vamos a comer.	Я голоден; пойдём поедим.
+Después de correr tengo mucha sed.	После бега я очень хочу пить.
+Tengo sueño, me voy a la cama.	Я хочу спать, пойду лягу.
+¿Tienes frío? Cierra la ventana.	Ты мёрзнешь? Закрой окно.
+Hoy hace buen tiempo.	Сегодня хорошая погода.
+Hay una tienda cerca.	Рядом есть магазин.
+Hace dos años que vivo aquí.	Я живу здесь уже два года.
+Trabajo aquí desde hace seis meses.	Я работаю здесь уже шесть месяцев.
+No estoy de acuerdo con esa idea.	Я не согласен с этой идеей.
+No importa, podemos ir mañana.	Ничего страшного, можем пойти завтра.
+Me da igual dónde comamos.	Мне всё равно, где мы поедим.
+—¿Vas a ir? —Depende del tiempo.	—Ты пойдёшь? —Зависит от погоды.
+—¿Puedes venir? —Claro que sí.	—Ты можешь прийти? —Конечно.
+Creo que es una buena opción.	Думаю, это хороший вариант.
+Me parece que está cerrado.	Мне кажется, там закрыто.
+No puedo ir; es que tengo trabajo.	Я не могу пойти: дело в том, что у меня работа.
+No entiendo lo que dices.	Я не понимаю, что ты говоришь.
+Siempre pide lo mismo.	Он всегда заказывает одно и то же.
+Estaba cansado, por eso me fui temprano.	Я устал, поэтому ушёл рано.
+Es barato y, además, funciona bien.	Это дёшево и, кроме того, хорошо работает.
+Era tarde; sin embargo, seguimos trabajando.	Было поздно, однако мы продолжили работать.
+Aunque estoy cansado, voy a salir.	Хотя я устал, я выйду.
+Cocino mientras escucho música.	Я готовлю, слушая музыку.
+Podemos ir en autobús o, por ejemplo, caminar.	Мы можем поехать на автобусе или, например, пойти пешком.
+En general, el servicio es bueno.	В целом обслуживание хорошее.
+¿En serio no lo sabías?	Ты правда этого не знал?
+A veces trabajo los sábados.	Иногда я работаю по субботам.
+Camino media hora todos los días.	Я каждый день гуляю полчаса.
+Explícamelo otra vez, por favor.	Объясни мне это ещё раз, пожалуйста.
+Llegamos a tiempo para la película.	Мы пришли вовремя к началу фильма.

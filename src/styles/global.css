@@ -1,0 +1,115 @@
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: calc(var(--header-h) + 22px); }
+body { margin: 0; min-width: 320px; background: var(--bg); color: var(--ink); font-family: var(--font-ui); -webkit-font-smoothing: antialiased; }
+body::selection { background: #cddcff; color: #102a60; }
+button, input, select { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; text-decoration: none; }
+img { max-width: 100%; }
+p { line-height: 1.7; }
+h1, h2, h3, p { margin-top: 0; }
+button { color: inherit; }
+[lang="es"] { font-feature-settings: "liga" 1; }
+.container { width: min(calc(100% - 48px), var(--container)); margin-inline: auto; }
+.site-shell { min-height: 100vh; overflow: clip; }
+.page-loading { min-height: 65vh; display:grid;place-items:center }.page-loading span{width:28px;height:28px;border:2px solid var(--line);border-top-color:var(--brand);border-radius:50%;animation:spin .7s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+.skip-link { position: fixed; top: 8px; left: 8px; z-index: 999; transform: translateY(-150%); padding: 10px 14px; background: var(--ink); color: white; border-radius: 8px; }
+.skip-link:focus { transform: translateY(0); }
+.eyebrow { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 22px; color: var(--ink-soft); font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.eyebrow span { padding: 6px 9px; border: 1px solid #bcd0fc; color: var(--brand); background: #edf3ff; border-radius: 999px; letter-spacing: .06em; }
+.eyebrow.neutral { color: var(--brand); }
+.eyebrow.neutral::before { content: ""; width: 28px; height: 1px; background: var(--brand); }
+.button { display: inline-flex; align-items: center; justify-content: center; gap: 9px; min-height: 48px; padding: 0 20px; border: 1px solid transparent; border-radius: 12px; font-size: 14px; font-weight: 700; cursor: pointer; transition: transform .25s var(--ease), background .25s, box-shadow .25s, border-color .25s; }
+.button:hover { transform: translateY(-2px); }
+.button.primary { background: var(--ink); color: var(--surface); box-shadow: 0 12px 26px rgb(24 32 51 / 18%); }
+.button.primary:hover { background: #26304a; box-shadow: 0 15px 35px rgb(24 32 51 / 24%); }
+.button.secondary { background: rgb(255 255 255 / 72%); border-color: var(--line-strong); }
+.button.secondary:hover { background: white; border-color: #b8c0cf; }
+.button.light { background: white; color: #182033; }
+.button.light:hover { box-shadow: 0 14px 32px rgb(4 15 40 / 22%); }
+.mini-label { display: inline-flex; width: fit-content; padding: 5px 8px; border-radius: 7px; font-size: 10px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.mini-label.purple { color: var(--purple); background: var(--purple-soft); }
+.mini-label.blue { color: var(--blue); background: var(--blue-soft); }
+.mini-label.gray { color: var(--gray); background: var(--gray-soft); }
+.ending-text { color: var(--red) !important; font-weight: 700; }
+.plural-text { color: var(--blue) !important; font-weight: 700; }
+.irregular-text { color: var(--green) !important; font-weight: 700; }
+.pattern-color { color: var(--purple) !important; }
+.section { padding: 112px 0; }
+.section-heading.split { display: grid; grid-template-columns: 1.35fr .65fr; align-items: end; gap: 80px; margin-bottom: 50px; }
+.section-heading h2, .method-copy h2 { margin: 0; font-size: clamp(36px, 4.5vw, 58px); line-height: 1.08; letter-spacing: -.045em; }
+.section-heading p { max-width: 470px; margin: 0 0 6px; color: var(--ink-soft); font-size: 16px; }
+.breadcrumbs { display: flex; gap: 9px; margin-bottom: 34px; color: var(--ink-muted); font-size: 12px; font-weight: 600; }
+.breadcrumbs a:hover { color: var(--brand); }
+.reveal { animation: reveal .8s var(--ease) both; }
+.delay-1 { animation-delay: .12s; }.delay-2 { animation-delay: .24s; }
+@keyframes reveal { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
+@media (max-width: 760px) { .container { width: min(calc(100% - 28px), var(--container)); }.section { padding: 78px 0; }.section-heading.split { grid-template-columns: 1fr; gap: 24px; }.section-heading h2, .method-copy h2 { font-size: 36px; } }
+
+/* Theme layer: components keep their semantic colors while surfaces swap globally. */
+[data-theme="dark"] body { background: var(--bg); color: var(--ink); }
+[data-theme="dark"] .site-header { background: rgb(16 19 27 / 88%); border-color: var(--line); }
+[data-theme="dark"] .site-footer { background: #0d1017; }
+[data-theme="dark"] .hero,
+[data-theme="dark"] .page-hero,
+[data-theme="dark"] .patterns-hero,
+[data-theme="dark"] .dialogues-hero,
+[data-theme="dark"] .practice-hero,
+[data-theme="dark"] .anki-hero,
+[data-theme="dark"] .sources-hero,
+[data-theme="dark"] .lexicon-hero { background: radial-gradient(circle at 82% 18%, #1d2b49 0, transparent 34%), linear-gradient(180deg, #121722, #10131b); }
+[data-theme="dark"] .section-library,
+[data-theme="dark"] .methodology-section,
+[data-theme="dark"] .start-section { background: var(--bg); }
+[data-theme="dark"] .hero-showcase,
+[data-theme="dark"] .section-card,
+[data-theme="dark"] .method-item,
+[data-theme="dark"] .hero-index-card,
+[data-theme="dark"] .color-legend,
+[data-theme="dark"] .rule-card,
+[data-theme="dark"] .table-card,
+[data-theme="dark"] .formula-card,
+[data-theme="dark"] .contrast-grid > div,
+[data-theme="dark"] .example-banner,
+[data-theme="dark"] .conditional-strip,
+[data-theme="dark"] .pattern-tile,
+[data-theme="dark"] .inline-callout,
+[data-theme="dark"] .lexicon-search,
+[data-theme="dark"] .select-control,
+[data-theme="dark"] .sort-control,
+[data-theme="dark"] .lexicon-table,
+[data-theme="dark"] .lexicon-row,
+[data-theme="dark"] .aside-legend,
+[data-theme="dark"] .lexicon-popover,
+[data-theme="dark"] .future-card-grid article,
+[data-theme="dark"] .anki-deck-grid article,
+[data-theme="dark"] .anki-preview-card,
+[data-theme="dark"] .install-steps article,
+[data-theme="dark"] .anki-pipeline > div,
+[data-theme="dark"] .search-dialog,
+[data-theme="dark"] .search-trigger,
+[data-theme="dark"] .result-icon,
+[data-theme="dark"] .theme-trigger { background: var(--surface); border-color: var(--line); }
+[data-theme="dark"] .section-card { background: #151a24; }
+[data-theme="dark"] .lexicon-row:hover,
+[data-theme="dark"] .lexicon-row.active,
+[data-theme="dark"] .responsive-table tbody tr:hover { background: #1b2331; }
+[data-theme="dark"] .search-footer,
+[data-theme="dark"] .responsive-table table thead th { background: var(--surface-muted); }
+[data-theme="dark"] .main-nav a:hover { background: var(--surface); }
+[data-theme="dark"] .main-nav.is-open { background: var(--surface); }
+[data-theme="dark"] input,
+[data-theme="dark"] select,
+[data-theme="dark"] textarea { color: var(--ink); }
+[data-theme="dark"] .start-card { background: linear-gradient(125deg, #171c29, #1d2a42 62%, #264f9b); }
+[data-theme="dark"] .alphabet-ribbon { background: var(--surface); color: var(--ink); }
+[data-theme="dark"] .pattern-rule-card { background: linear-gradient(135deg, #49358d, #6246b8); }
+[data-theme="dark"] .dialog-backdrop { background: rgb(2 4 8 / 70%); }
+[data-theme="dark"] .button.primary { background: #f7f8fc; color: #182033; }
+[data-theme="dark"] .button.primary:hover { background: #e8edf6; }
+[data-theme="dark"] .home-hero .button.secondary { background: #f7f8fc; color: #182033; border-color: transparent; box-shadow: 0 12px 26px rgb(0 0 0 / 28%); }
+[data-theme="dark"] .home-hero .button.secondary:hover { background: #e8edf6; border-color: transparent; }
+[data-theme="dark"] .anki-hero-actions .button.secondary { background: #f7f8fc; color: #182033; border-color: transparent; box-shadow: 0 12px 26px rgb(0 0 0 / 28%); }
+[data-theme="dark"] .anki-hero-actions .button.secondary:hover { background: #e8edf6; border-color: transparent; }
+[data-theme="dark"] .anki-settings a { color: #182033; }

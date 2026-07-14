@@ -1,0 +1,19 @@
+{
+  "version": "1.2",
+  "filename": "MDSI-es-419-v1.2.apkg",
+  "quizletFilename": "MDSI-es-419-v1.2-Quizlet.txt",
+  "polyglotFilename": "MDSI-es-419-v1.2-Polyglot.xlsx",
+  "quizletCards": 1044,
+  "polyglotCards": 1044,
+  "quizletLexicalCards": 500,
+  "quizletPhraseCards": 512,
+  "quizletPatternCards": 32,
+  "lexicalNotes": 500,
+  "lexicalCards": 1000,
+  "phraseCards": 512,
+  "patternCards": 32,
+  "totalNotes": 1044,
+  "totalCards": 1544,
+  "deckCount": 3,
+  "standard": "es-419"
+}
