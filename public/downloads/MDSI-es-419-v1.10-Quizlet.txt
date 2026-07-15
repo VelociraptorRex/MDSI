@@ -15,7 +15,7 @@ por	по; через; из-за; за
 con	с
 su	его; её; их; Ваш
 para	для; чтобы; к сроку
-como	как; поскольку
+como	как; поскольку; как?
 estar	быть; находиться; чувствовать себя
 tener	иметь
 le	ему; ей; Вам
@@ -35,9 +35,9 @@ si	если
 me	меня; мне; себя (1 л.)
 ya	уже; сейчас; больше не
 ver	видеть; смотреть
-porque	потому что
+porque	потому что; почему?
 dar	давать
-cuando	когда
+cuando	когда; когда?
 él	он
 muy	очень
 sin	без
@@ -45,9 +45,13 @@ la vez	раз
 mucho	много; очень
 saber	знать; уметь
 qué	что; какой
+quién	кто; который (о человеке)
+cuál	какой; который
+cuánto	сколько
 sobre	о; над; на; конверт
 mi	мой
 alguno	какой-нибудь; некоторый
+ninguno	никакой; ни один
 mismo	тот же; сам
 yo	я
 también	тоже; также
@@ -81,7 +85,7 @@ el hombre	мужчина; человек
 parecer	казаться
 nuestro	наш
 tan	такой; настолько
-donde	где; куда
+donde	где; куда; где?; куда?
 ahora	сейчас
 la parte	часть; сторона
 después	после; потом
@@ -93,12 +97,14 @@ hablar	говорить; разговаривать
 llevar	нести; носить; отвозить; занимать время
 dejar	оставлять; позволять; прекращать
 nada	ничто; ничего
+nadie	никто
 cada	каждый
 seguir	следовать; продолжать
 menos	меньше; кроме
 nuevo	новый
 encontrar	находить; встречать
 algo	что-то; немного
+alguien	кто-то; кто-нибудь
 solo	один; только
 llamar	звать; звонить
 venir	приходить; приезжать
@@ -375,12 +381,10 @@ bajo	низкий; под
 rápido	быстрый; быстро
 lento	медленный; медленно
 fuerte	сильный; крепкий; громко
-débil	слабый
 joven	молодой; молодой человек
 viejo	старый
 pequeño	маленький
 bonito	красивый; милый
-feo	некрасивый; неприятный
 feliz	счастливый
 triste	грустный
 cansado	уставший
@@ -392,11 +396,9 @@ cerrado	закрытый
 caliente	горячий; тёплый
 frío	холодный; холод
 limpio	чистый
-sucio	грязный
 caro	дорогой
 barato	дешёвый
 lleno	полный; заполненный
-vacío	пустой
 cerca	близко
 lejos	далеко
 aquí	здесь; сюда
@@ -414,9 +416,7 @@ todavía	ещё; всё ещё
 quizá	возможно
 pronto	скоро; быстро
 juntos	вместе
-aparte	отдельно; кроме того
 afuera	снаружи; наружу
-adentro	внутри; внутрь
 arriba	наверху; вверх
 abajo	внизу; вниз
 adelante	вперёд; проходите
@@ -571,7 +571,7 @@ Gracias por venir.	Спасибо, что пришёл.
 Vengo con mi hermana.	Я приду с сестрой.
 ¿Cuál es su nombre?	Как вас зовут?
 Esto es para ti.	Это для тебя.
-Hazlo como quieras.	Сделай как хочешь.
+¿Cómo lo haces? Hazlo como quieras.	Как ты это делаешь? Сделай как хочешь.
 Estoy en casa.	Я дома.
 Tengo dos hermanos.	У меня два брата.
 Le escribí ayer.	Я написал ему вчера.
@@ -589,9 +589,9 @@ Quiero otro vaso de agua.	Я хочу ещё стакан воды.
 Me gusta esta canción.	Мне нравится эта песня.
 Ya terminé.	Я уже закончил.
 Nos vemos mañana.	Увидимся завтра.
-No fui porque estaba enfermo.	Я не пошёл, потому что был болен.
+¿Por qué no vienes? Porque trabajo.	Почему ты не приходишь? Потому что я работаю.
 ¿Me das tu número?	Дашь мне свой номер?
-Llámame cuando llegues.	Позвони мне, когда приедешь.
+¿Cuándo vienes? — Vengo mañana.	Когда ты придёшь? — Я приду завтра.
 Él trabaja conmigo.	Он работает со мной.
 La comida está muy rica.	Еда очень вкусная.
 Salí sin paraguas.	Я вышел без зонта.
@@ -599,9 +599,13 @@ Esta vez llegué temprano.	В этот раз я пришёл рано.
 Hoy tengo mucho trabajo.	Сегодня у меня много работы.
 No sé la respuesta.	Я не знаю ответа.
 ¿Qué necesitas?	Что тебе нужно?
+¿Quién viene contigo?	Кто идёт с тобой?
+¿Cuál quieres?	Какой ты хочешь?
+¿Cuánto tiempo necesitas?	Сколько времени тебе нужно?
 Hablamos sobre el viaje.	Мы говорили о поездке.
 Mi familia vive aquí.	Моя семья живёт здесь.
 ¿Tienes alguna duda?	У тебя есть какой-нибудь вопрос?
+No tengo ningún problema.	У меня нет никаких проблем.
 Tenemos el mismo problema.	У нас та же проблема.
 Yo puedo hacerlo.	Я могу это сделать.
 Yo también quiero ir.	Я тоже хочу пойти.
@@ -634,7 +638,7 @@ Ese hombre es mi vecino.	Этот мужчина — мой сосед.
 Me parece buena idea.	Мне кажется, это хорошая идея.
 Nuestra casa queda cerca.	Наш дом находится рядом.
 No es tan difícil.	Это не так сложно.
-Quédate donde estás.	Оставайся там, где стоишь.
+¿Dónde vives? — Vivo en Lima.	Где ты живёшь? — Я живу в Лиме.
 Ahora no puedo hablar.	Сейчас я не могу говорить.
 Esta es la mejor parte.	Это лучшая часть.
 Hablamos después.	Поговорим потом.
@@ -646,11 +650,13 @@ Creo que va a llover.	Думаю, будет дождь.
 Llevo tres años aquí.	Я живу здесь уже три года.
 Déjame pensar.	Дай мне подумать.
 No pasó nada.	Ничего не случилось.
+Nadie sabe la respuesta.	Никто не знает ответа.
 Voy al gimnasio cada día.	Я хожу в спортзал каждый день.
 Sigue todo recto.	Иди всё время прямо.
 Hoy hay menos gente.	Сегодня людей меньше.
 Compré un teléfono nuevo.	Я купил новый телефон.
 Quiero comer algo.	Я хочу что-нибудь съесть.
+¿Hay alguien aquí?	Здесь кто-нибудь есть?
 Vivo solo, pero no me siento solo.	Я живу один, но не чувствую себя одиноким.
 Te llamo esta noche.	Я позвоню тебе сегодня вечером.
 ¿Vienes con nosotros?	Ты идёшь с нами?
@@ -923,12 +929,10 @@ La mesa es demasiado baja.	Стол слишком низкий.
 El servicio fue rápido.	Обслуживание было быстрым.
 Hoy el internet está lento.	Сегодня интернет работает медленно.
 El café está muy fuerte.	Кофе очень крепкий.
-Después de la enfermedad se sentía débil.	После болезни он чувствовал слабость.
 Es joven, pero tiene mucha experiencia.	Он молод, но у него большой опыт.
 Mi computadora ya está vieja.	Мой компьютер уже старый.
 Vivimos en un departamento pequeño.	Мы живём в маленькой квартире.
 Qué bonito lugar.	Какое красивое место.
-Hace un tiempo feo hoy.	Сегодня плохая погода.
 Me hace feliz verte.	Я рад тебя видеть.
 La noticia me dejó triste.	Новость меня расстроила.
 Estoy cansado, pero bien.	Я устал, но всё в порядке.
@@ -940,11 +944,9 @@ La puerta estaba cerrada.	Дверь была закрыта.
 Cuidado, el plato está caliente.	Осторожно, тарелка горячая.
 El agua está muy fría.	Вода очень холодная.
 El baño está limpio.	В ванной чисто.
-Tus zapatos están sucios.	Твои ботинки грязные.
 Ese hotel es demasiado caro.	Этот отель слишком дорогой.
 Encontramos un vuelo barato.	Мы нашли дешёвый билет на самолёт.
 El autobús está lleno.	Автобус переполнен.
-El vaso está vacío.	Стакан пуст.
 La estación está cerca de aquí.	Станция находится неподалёку.
 El aeropuerto queda lejos del centro.	Аэропорт находится далеко от центра.
 Puedes sentarte aquí.	Можешь сесть здесь.
@@ -962,9 +964,7 @@ Todavía no estoy listo.	Я ещё не готов.
 Quizá llueva esta noche.	Возможно, сегодня вечером будет дождь.
 Espero verte pronto.	Надеюсь вскоре тебя увидеть.
 Podemos hacerlo juntos.	Мы можем сделать это вместе.
-Quiero hablar contigo aparte.	Я хочу поговорить с тобой наедине.
 Te espero afuera del edificio.	Я жду тебя у здания.
-Hace frío; vamos adentro.	Холодно; пойдём внутрь.
 El baño está arriba.	Туалет наверху.
 Te espero abajo.	Я жду тебя внизу.
 Adelante, la puerta está abierta.	Входите, дверь открыта.

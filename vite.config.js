@@ -14,7 +14,9 @@ const pages = [
   "es-419/sources/index.html"
 ];
 
-const base = process.env.VITE_BASE_PATH || "/MDSI/";
+const repository = process.env.GITHUB_REPOSITORY?.split("/").pop();
+const githubPagesBase = process.env.GITHUB_ACTIONS === "true" && repository ? `/${repository}/` : "/";
+const base = process.env.VITE_BASE_PATH || githubPagesBase;
 
 export default defineConfig({
   base,

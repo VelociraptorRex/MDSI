@@ -16,7 +16,7 @@ export function HomePage({ onOpenSearch }) {
       <section className="hero home-hero">
         <div className="container hero-grid">
           <div className="hero-copy reveal">
-            <div className="eyebrow"><span>ES·419</span> нейтральный латиноамериканский испанский</div>
+            <div className="eyebrow"><span>ES·419</span> латиноамериканский испанский</div>
             <h1>Испанский, сведённый<br />к <em>достаточному.</em></h1>
             <p className="hero-lead">Связанная база знаний, которая сокращает путь от первого слова до первой осмысленной коммуникации — без лишней теории.</p>
             <div className="hero-actions">

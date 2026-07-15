@@ -13,7 +13,7 @@ export function Footer() {
           <a href={sitePath("/es-419/sources/")}>Методика <ArrowUpRight size={14} /></a>
           <a href={sitePath("/es-419/lexicon/")}>Лексическое ядро</a>
           <a href={sitePath("/es-419/anki/")}>Карточки</a>
-          <span>Содержательная версия v1.2</span>
+          <span>Содержательная версия v1.10</span>
         </div>
       </div>
     </footer>

@@ -1,9 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowDownAZ, BookA, ChevronDown, Filter, Info, Search, SlidersHorizontal, Sparkles } from "lucide-react";
+import conjugations from "../data/conjugations.json";
 import lexicon from "../data/lexicon.json";
 import { PageToc } from "../components/PageToc";
 import { LexiconPopover } from "../components/LexiconPopover";
 import { sitePath } from "../utils/sitePath";
+import { getVerbColorKind } from "../utils/verbClassification";
 
 const toc = [
   { id: "lexicon-controls", label: "Поиск и фильтры" },
@@ -24,7 +26,12 @@ function matchGroup(item, group) {
   return new RegExp(group.match, "i").test(item.type);
 }
 
-function popoverPosition(item,element=null){const verb=item.type.toLowerCase().includes("глагол");const width=Math.min(verb?860:430,window.innerWidth-32);const height=Math.min(verb?760:590,window.innerHeight-32);if(!element)return{left:Math.max(16,(window.innerWidth-width)/2),top:Math.max(16,(window.innerHeight-height)/2)};const rect=element.getBoundingClientRect();let left=rect.right+14;if(left+width>window.innerWidth-16)left=rect.left-width-14;if(left<16)left=Math.max(16,(window.innerWidth-width)/2);const top=Math.min(Math.max(16,rect.top-40),Math.max(16,window.innerHeight-height-16));return{left,top}}
+function verbTypeClass(item) {
+  const table = conjugations[item.lemma.toLocaleLowerCase("es")];
+  return table ? `verb-type-${getVerbColorKind(item.lemma, table)}` : "";
+}
+
+function popoverPosition(item,element=null){const verb=item.type.toLowerCase().includes("глагол");const width=Math.min(verb?940:430,window.innerWidth-32);const height=Math.min(verb?780:590,window.innerHeight-32);if(!element)return{left:Math.max(16,(window.innerWidth-width)/2),top:Math.max(16,(window.innerHeight-height)/2)};const rect=element.getBoundingClientRect();let left=rect.right+14;if(left+width>window.innerWidth-16)left=rect.left-width-14;if(left<16)left=Math.max(16,(window.innerWidth-width)/2);const top=Math.min(Math.max(16,rect.top-40),Math.max(16,window.innerHeight-height-16));return{left,top}}
 
 export function LexiconPage() {
   const params = new URLSearchParams(window.location.search);
@@ -33,6 +40,7 @@ export function LexiconPage() {
   const [query, setQuery] = useState(initial);
   const [group, setGroup] = useState("all");
   const [sort, setSort] = useState("rank");
+  const [conjugationMode, setConjugationMode] = useState("core");
   const [activeItem, setActiveItem] = useState(initialItem);
   const [position, setPosition] = useState(()=>initialItem?popoverPosition(initialItem):null);
   const [pinned, setPinned] = useState(Boolean(initialItem));
@@ -65,8 +73,8 @@ export function LexiconPage() {
         <div className="container">
           <div className="breadcrumbs"><a href={sitePath("/es-419/")}>Главная</a><span>/</span><span>Лексика</span></div>
           <div className="reference-hero-grid">
-            <div><div className="eyebrow"><span>Ядро 500</span> данные v0.1</div><h1>Слова, из которых<br /><em>собирается речь.</em></h1><p>Частотные леммы, служебные конструкции и речевые паттерны — с формами и естественными примерами.</p></div>
-            <div className="hero-index-card lexical"><div><BookA size={18} /><span>Лексическое ядро</span></div><strong>500</strong><p>единиц нейтрального латиноамериканского испанского</p></div>
+            <div><div className="eyebrow"><span>Ядро 500</span> данные v0.2</div><h1>Слова, из которых<br /><em>собирается речь.</em></h1><p>Частотные леммы, служебные конструкции и речевые паттерны — с формами и естественными примерами.</p></div>
+            <div className="hero-index-card lexical"><div><BookA size={18} /><span>Лексическое ядро</span></div><strong>500</strong><p>единиц латиноамериканского испанского</p></div>
           </div>
           <div className="hover-hint"><Sparkles size={16} /><span>Наведи курсор для просмотра; нажми на строку, чтобы закрепить карточку.</span></div>
         </div>
@@ -80,7 +88,14 @@ export function LexiconPage() {
               <label className="select-control"><Filter size={16} /><select value={group} onChange={(e) => changeGroup(e.target.value)}>{groups.map((item) => <option value={item.id} key={item.id}>{item.label}</option>)}</select><ChevronDown size={14} /></label>
               <button className="sort-control" onClick={() => setSort(sort === "rank" ? "alpha" : "rank")}><ArrowDownAZ size={17} />{sort === "rank" ? "По ядру" : "А–Я"}</button>
             </div>
-            <div className="active-filter-line"><SlidersHorizontal size={14} /><span>Показано {filtered.length} из {lexicon.length}</span><span className="dot-separator" /> <span>Источник: лексическое ядро v0.1</span></div>
+            <div className="active-filter-line"><SlidersHorizontal size={14} /><span>Показано {filtered.length} из {lexicon.length}</span><span className="dot-separator" /> <span>Источник: лексическое ядро v0.2</span></div>
+            <div className="lexicon-conjugation-switch" role="group" aria-label="Набор времён в карточках глаголов">
+              <span>Таблицы глаголов</span>
+              <div>
+                <button className={conjugationMode==="core"?"active":""} onClick={()=>setConjugationMode("core")} aria-pressed={conjugationMode==="core"}>Основные времена</button>
+                <button className={conjugationMode==="all"?"active":""} onClick={()=>setConjugationMode("all")} aria-pressed={conjugationMode==="all"}>Все времена</button>
+              </div>
+            </div>
           </section>
 
           <section id="lexicon-list" className="lexicon-list-section">
@@ -90,7 +105,7 @@ export function LexiconPage() {
                 <button className={`lexicon-row ${activeItem?.id === item.id ? "active" : ""}`} data-lexicon-id={item.id} key={item.id} role="listitem" onMouseEnter={(e)=>show(item,e.currentTarget)} onMouseLeave={scheduleHide} onFocus={(e)=>show(item,e.currentTarget)} onClick={(e)=>{e.stopPropagation();show(item,e.currentTarget,true)}}>
                   <span className="lex-rank">{String(item.rank).padStart(3, "0")}</span>
                   <span className="lex-lemma" lang="es">{item.lemma}</span>
-                  <span className="lex-type">{item.type}</span>
+                  <span className={`lex-type ${verbTypeClass(item)}`}>{item.type}</span>
                   <span className="lex-translation">{item.translation}</span>
                   <span className="lex-example"><em lang="es">{item.example}</em><small>{item.exampleRu}</small></span>
                 </button>
@@ -109,7 +124,7 @@ export function LexiconPage() {
       </div>
 
       <div onMouseEnter={()=>clearTimeout(hideTimer.current)} onMouseLeave={scheduleHide}>
-        <LexiconPopover item={activeItem} position={position} pinned={pinned} onClose={closeCard}/>
+        <LexiconPopover item={activeItem} position={position} pinned={pinned} onClose={closeCard} conjugationMode={conjugationMode}/>
       </div>
     </div>
   );

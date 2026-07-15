@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { BookOpen, ChevronDown, Menu, Moon, Search, Sun, X } from "lucide-react";
+import { ChevronDown, Menu, Moon, Search, Sun, X } from "lucide-react";
 import { sitePath } from "../utils/sitePath";
+import spainFlag from "../assets/es.svg";
 
 const nav = [
   { id: "home", label: "Главная", href: sitePath("/es-419/") },
@@ -20,7 +21,9 @@ export function Header({ page, onSearch, theme, onTheme }) {
     <header className="site-header">
       <div className="header-inner">
         <a className="brand" href={sitePath("/es-419/")} aria-label="MDSI — на главную">
-          <span className="brand-mark"><BookOpen size={19} strokeWidth={2.2} /></span>
+          <span className="brand-mark">
+            <img className="brand-flag" src={spainFlag} alt="Флаг Испании" />
+          </span>
           <span><strong>MDSI</strong><small>español esencial</small></span>
         </a>
 

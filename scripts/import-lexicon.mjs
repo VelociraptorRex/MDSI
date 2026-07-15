@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import XLSX from "xlsx";
 
-const input = path.resolve("content/es-419/lexico_es_500_v01.xlsx");
+const input = path.resolve("content/es-419/lexico_es_500_v02.xlsx");
 const output = path.resolve("src/data/lexicon.json");
 const workbook = XLSX.readFile(input);
 const worksheet = workbook.Sheets["Léxico 500"];

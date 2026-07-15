@@ -1,7 +1,8 @@
 .site-header { position: sticky; top: 0; z-index: 100; height: var(--header-h); background: rgb(247 248 252 / 86%); border-bottom: 1px solid rgb(220 225 234 / 80%); backdrop-filter: blur(18px) saturate(1.4); }
 .header-inner { width: min(calc(100% - 48px), 1320px); height: 100%; margin: auto; display: flex; align-items: center; gap: 28px; }
 .brand { display: inline-flex; align-items: center; gap: 11px; min-width: 190px; }
-.brand-mark { width: 35px; height: 35px; display: grid; place-items: center; border-radius: 11px; color: white; background: var(--ink); box-shadow: 0 7px 16px rgb(24 32 51 / 16%); }
+.brand-mark { width: 38px; height: 28px; display: grid; place-items: center; flex: none; background: transparent; box-shadow: none; }
+.brand-flag { display: block; width: 36px; height: 24px; object-fit: cover; border: 1px solid rgb(24 32 51 / 14%); border-radius: 3px; box-shadow: 0 4px 10px rgb(24 32 51 / 10%); }
 .brand > span:last-child { display: flex; flex-direction: column; line-height: 1.05; }
 .brand strong { font-size: 15px; letter-spacing: .08em; }
 .brand small { margin-top: 4px; color: var(--ink-muted); font-size: 9px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }

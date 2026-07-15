@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 500" role="img" aria-labelledby="title">
+  <title id="title">Флаг Испании</title>
+  <path fill="#AA151B" d="M0 0h750v500H0z"/>
+  <path fill="#F1BF00" d="M0 125h750v250H0z"/>
+  <g transform="translate(228 195)">
+    <rect x="0" y="0" width="68" height="92" rx="8" fill="#fff" stroke="#AA151B" stroke-width="8"/>
+    <path fill="#AA151B" d="M7 8h54v36H7z"/>
+    <path fill="#F1BF00" d="M7 44h54v40H7z"/>
+    <path fill="#005BBF" d="M27 8h14v76H27z" opacity=".88"/>
+    <path fill="#AA151B" d="M-18 8h10v76h-10zM76 8h10v76H76z"/>
+    <path fill="#F1BF00" d="M-23 0h20v10h-20zM71 0h20v10H71z"/>
+    <path fill="#AA151B" d="M15-16h38l-6 15H21z"/>
+    <circle cx="34" cy="-20" r="8" fill="#F1BF00"/>
+  </g>
+</svg>

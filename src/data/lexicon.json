@@ -224,11 +224,11 @@
     "id": "es-0018",
     "rank": 18,
     "lemma": "como",
-    "type": "союз / наречие",
-    "translation": "как; поскольку",
-    "forms": "como",
-    "example": "Hazlo como quieras.",
-    "exampleRu": "Сделай как хочешь.",
+    "type": "союз / наречие / вопросительное наречие",
+    "translation": "как; поскольку; как?",
+    "forms": "como; cómo",
+    "example": "¿Cómo lo haces? Hazlo como quieras.",
+    "exampleRu": "Как ты это делаешь? Сделай как хочешь.",
     "tag": "служебное",
     "language": "es-419",
     "status": "prototype"
@@ -484,11 +484,11 @@
     "id": "es-0038",
     "rank": 38,
     "lemma": "porque",
-    "type": "союз",
-    "translation": "потому что",
-    "forms": "porque",
-    "example": "No fui porque estaba enfermo.",
-    "exampleRu": "Я не пошёл, потому что был болен.",
+    "type": "союз / вопросительное выражение",
+    "translation": "потому что; почему?",
+    "forms": "porque; por qué",
+    "example": "¿Por qué no vienes? Porque trabajo.",
+    "exampleRu": "Почему ты не приходишь? Потому что я работаю.",
     "tag": "служебное",
     "language": "es-419",
     "status": "prototype"
@@ -510,11 +510,11 @@
     "id": "es-0040",
     "rank": 40,
     "lemma": "cuando",
-    "type": "союз",
-    "translation": "когда",
-    "forms": "cuando",
-    "example": "Llámame cuando llegues.",
-    "exampleRu": "Позвони мне, когда приедешь.",
+    "type": "союз / вопросительное наречие",
+    "translation": "когда; когда?",
+    "forms": "cuando; cuándo",
+    "example": "¿Cuándo vienes? — Vengo mañana.",
+    "exampleRu": "Когда ты придёшь? — Я приду завтра.",
     "tag": "служебное",
     "language": "es-419",
     "status": "prototype"
@@ -613,6 +613,45 @@
   {
     "id": "es-0048",
     "rank": 48,
+    "lemma": "quién",
+    "type": "вопросительное / относительное местоимение",
+    "translation": "кто; который (о человеке)",
+    "forms": "quién, quiénes; quien, quienes",
+    "example": "¿Quién viene contigo?",
+    "exampleRu": "Кто идёт с тобой?",
+    "tag": "вопрос",
+    "language": "es-419",
+    "status": "prototype"
+  },
+  {
+    "id": "es-0049",
+    "rank": 49,
+    "lemma": "cuál",
+    "type": "вопросительное местоимение",
+    "translation": "какой; который",
+    "forms": "cuál, cuáles",
+    "example": "¿Cuál quieres?",
+    "exampleRu": "Какой ты хочешь?",
+    "tag": "вопрос",
+    "language": "es-419",
+    "status": "prototype"
+  },
+  {
+    "id": "es-0050",
+    "rank": 50,
+    "lemma": "cuánto",
+    "type": "вопросительное местоимение / определитель",
+    "translation": "сколько",
+    "forms": "cuánto, cuánta, cuántos, cuántas",
+    "example": "¿Cuánto tiempo necesitas?",
+    "exampleRu": "Сколько времени тебе нужно?",
+    "tag": "вопрос",
+    "language": "es-419",
+    "status": "prototype"
+  },
+  {
+    "id": "es-0051",
+    "rank": 51,
     "lemma": "sobre",
     "type": "предлог / существительное",
     "translation": "о; над; на; конверт",
@@ -624,8 +663,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0049",
-    "rank": 49,
+    "id": "es-0052",
+    "rank": 52,
     "lemma": "mi",
     "type": "притяжательное",
     "translation": "мой",
@@ -637,8 +676,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0050",
-    "rank": 50,
+    "id": "es-0053",
+    "rank": 53,
     "lemma": "alguno",
     "type": "местоимение / определитель",
     "translation": "какой-нибудь; некоторый",
@@ -650,8 +689,21 @@
     "status": "prototype"
   },
   {
-    "id": "es-0051",
-    "rank": 51,
+    "id": "es-0054",
+    "rank": 54,
+    "lemma": "ninguno",
+    "type": "местоимение / определитель",
+    "translation": "никакой; ни один",
+    "forms": "ningún, ninguno, ninguna",
+    "example": "No tengo ningún problema.",
+    "exampleRu": "У меня нет никаких проблем.",
+    "tag": "базовое",
+    "language": "es-419",
+    "status": "prototype"
+  },
+  {
+    "id": "es-0055",
+    "rank": 55,
     "lemma": "mismo",
     "type": "местоимение / прилагательное",
     "translation": "тот же; сам",
@@ -663,8 +715,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0052",
-    "rank": 52,
+    "id": "es-0056",
+    "rank": 56,
     "lemma": "yo",
     "type": "личное местоимение",
     "translation": "я",
@@ -676,8 +728,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0053",
-    "rank": 53,
+    "id": "es-0057",
+    "rank": 57,
     "lemma": "también",
     "type": "наречие",
     "translation": "тоже; также",
@@ -689,8 +741,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0054",
-    "rank": 54,
+    "id": "es-0058",
+    "rank": 58,
     "lemma": "hasta",
     "type": "предлог / наречие",
     "translation": "до; даже",
@@ -702,8 +754,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0055",
-    "rank": 55,
+    "id": "es-0059",
+    "rank": 59,
     "lemma": "año",
     "type": "существительное, м.р.",
     "translation": "год",
@@ -715,8 +767,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0056",
-    "rank": 56,
+    "id": "es-0060",
+    "rank": 60,
     "lemma": "dos",
     "type": "числительное",
     "translation": "два",
@@ -728,8 +780,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0057",
-    "rank": 57,
+    "id": "es-0061",
+    "rank": 61,
     "lemma": "querer",
     "type": "глагол",
     "translation": "хотеть; любить",
@@ -741,8 +793,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0058",
-    "rank": 58,
+    "id": "es-0062",
+    "rank": 62,
     "lemma": "entre",
     "type": "предлог",
     "translation": "между; среди",
@@ -754,8 +806,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0059",
-    "rank": 59,
+    "id": "es-0063",
+    "rank": 63,
     "lemma": "así",
     "type": "наречие",
     "translation": "так; таким образом",
@@ -767,8 +819,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0060",
-    "rank": 60,
+    "id": "es-0064",
+    "rank": 64,
     "lemma": "primero",
     "type": "числительное / наречие",
     "translation": "первый; сначала",
@@ -780,8 +832,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0061",
-    "rank": 61,
+    "id": "es-0065",
+    "rank": 65,
     "lemma": "desde",
     "type": "предлог",
     "translation": "из; с; начиная с",
@@ -793,8 +845,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0062",
-    "rank": 62,
+    "id": "es-0066",
+    "rank": 66,
     "lemma": "grande",
     "type": "прилагательное",
     "translation": "большой; великий",
@@ -806,8 +858,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0063",
-    "rank": 63,
+    "id": "es-0067",
+    "rank": 67,
     "lemma": "eso",
     "type": "указательное местоимение",
     "translation": "это; то",
@@ -819,8 +871,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0064",
-    "rank": 64,
+    "id": "es-0068",
+    "rank": 68,
     "lemma": "ni",
     "type": "союз",
     "translation": "ни; и не",
@@ -832,8 +884,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0065",
-    "rank": 65,
+    "id": "es-0069",
+    "rank": 69,
     "lemma": "nos",
     "type": "местоимение",
     "translation": "нас; нам; себя (1 л. мн.)",
@@ -845,8 +897,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0066",
-    "rank": 66,
+    "id": "es-0070",
+    "rank": 70,
     "lemma": "llegar",
     "type": "глагол",
     "translation": "прибывать; приходить",
@@ -858,8 +910,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0067",
-    "rank": 67,
+    "id": "es-0071",
+    "rank": 71,
     "lemma": "pasar",
     "type": "глагол",
     "translation": "проходить; проводить; случаться",
@@ -871,8 +923,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0068",
-    "rank": 68,
+    "id": "es-0072",
+    "rank": 72,
     "lemma": "tiempo",
     "type": "существительное, м.р.",
     "translation": "время; погода",
@@ -884,8 +936,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0069",
-    "rank": 69,
+    "id": "es-0073",
+    "rank": 73,
     "lemma": "ella",
     "type": "личное местоимение",
     "translation": "она",
@@ -897,8 +949,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0070",
-    "rank": 70,
+    "id": "es-0074",
+    "rank": 74,
     "lemma": "sí",
     "type": "наречие / местоимение",
     "translation": "да; себя",
@@ -910,8 +962,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0071",
-    "rank": 71,
+    "id": "es-0075",
+    "rank": 75,
     "lemma": "día",
     "type": "существительное, м.р.",
     "translation": "день",
@@ -923,8 +975,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0072",
-    "rank": 72,
+    "id": "es-0076",
+    "rank": 76,
     "lemma": "uno",
     "type": "числительное / местоимение",
     "translation": "один; некто",
@@ -936,8 +988,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0073",
-    "rank": 73,
+    "id": "es-0077",
+    "rank": 77,
     "lemma": "bien",
     "type": "наречие / существительное",
     "translation": "хорошо; благо",
@@ -949,8 +1001,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0074",
-    "rank": 74,
+    "id": "es-0078",
+    "rank": 78,
     "lemma": "poco",
     "type": "определитель / наречие",
     "translation": "мало; немного",
@@ -962,8 +1014,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0075",
-    "rank": 75,
+    "id": "es-0079",
+    "rank": 79,
     "lemma": "deber",
     "type": "глагол",
     "translation": "быть должным; следует",
@@ -975,8 +1027,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0076",
-    "rank": 76,
+    "id": "es-0080",
+    "rank": 80,
     "lemma": "entonces",
     "type": "наречие",
     "translation": "тогда; значит",
@@ -988,8 +1040,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0077",
-    "rank": 77,
+    "id": "es-0081",
+    "rank": 81,
     "lemma": "poner",
     "type": "глагол",
     "translation": "класть; ставить; надевать",
@@ -1001,8 +1053,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0078",
-    "rank": 78,
+    "id": "es-0082",
+    "rank": 82,
     "lemma": "cosa",
     "type": "существительное, ж.р.",
     "translation": "вещь; дело",
@@ -1014,8 +1066,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0079",
-    "rank": 79,
+    "id": "es-0083",
+    "rank": 83,
     "lemma": "tanto",
     "type": "определитель / наречие",
     "translation": "столько; так сильно",
@@ -1027,8 +1079,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0080",
-    "rank": 80,
+    "id": "es-0084",
+    "rank": 84,
     "lemma": "hombre",
     "type": "существительное, м.р.",
     "translation": "мужчина; человек",
@@ -1040,8 +1092,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0081",
-    "rank": 81,
+    "id": "es-0085",
+    "rank": 85,
     "lemma": "parecer",
     "type": "глагол",
     "translation": "казаться",
@@ -1053,8 +1105,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0082",
-    "rank": 82,
+    "id": "es-0086",
+    "rank": 86,
     "lemma": "nuestro",
     "type": "притяжательное",
     "translation": "наш",
@@ -1066,8 +1118,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0083",
-    "rank": 83,
+    "id": "es-0087",
+    "rank": 87,
     "lemma": "tan",
     "type": "наречие",
     "translation": "такой; настолько",
@@ -1079,21 +1131,21 @@
     "status": "prototype"
   },
   {
-    "id": "es-0084",
-    "rank": 84,
+    "id": "es-0088",
+    "rank": 88,
     "lemma": "donde",
-    "type": "союз / наречие",
-    "translation": "где; куда",
-    "forms": "donde",
-    "example": "Quédate donde estás.",
-    "exampleRu": "Оставайся там, где стоишь.",
+    "type": "союз / вопросительное наречие",
+    "translation": "где; куда; где?; куда?",
+    "forms": "donde; dónde",
+    "example": "¿Dónde vives? — Vivo en Lima.",
+    "exampleRu": "Где ты живёшь? — Я живу в Лиме.",
     "tag": "служебное",
     "language": "es-419",
     "status": "prototype"
   },
   {
-    "id": "es-0085",
-    "rank": 85,
+    "id": "es-0089",
+    "rank": 89,
     "lemma": "ahora",
     "type": "наречие",
     "translation": "сейчас",
@@ -1105,8 +1157,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0086",
-    "rank": 86,
+    "id": "es-0090",
+    "rank": 90,
     "lemma": "parte",
     "type": "существительное, ж.р.",
     "translation": "часть; сторона",
@@ -1118,8 +1170,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0087",
-    "rank": 87,
+    "id": "es-0091",
+    "rank": 91,
     "lemma": "después",
     "type": "наречие",
     "translation": "после; потом",
@@ -1131,8 +1183,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0088",
-    "rank": 88,
+    "id": "es-0092",
+    "rank": 92,
     "lemma": "vida",
     "type": "существительное, ж.р.",
     "translation": "жизнь",
@@ -1144,8 +1196,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0089",
-    "rank": 89,
+    "id": "es-0093",
+    "rank": 93,
     "lemma": "quedar",
     "type": "глагол",
     "translation": "оставаться; находиться; договариваться",
@@ -1157,8 +1209,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0090",
-    "rank": 90,
+    "id": "es-0094",
+    "rank": 94,
     "lemma": "siempre",
     "type": "наречие",
     "translation": "всегда",
@@ -1170,8 +1222,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0091",
-    "rank": 91,
+    "id": "es-0095",
+    "rank": 95,
     "lemma": "creer",
     "type": "глагол",
     "translation": "верить; считать",
@@ -1183,8 +1235,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0092",
-    "rank": 92,
+    "id": "es-0096",
+    "rank": 96,
     "lemma": "hablar",
     "type": "глагол",
     "translation": "говорить; разговаривать",
@@ -1196,8 +1248,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0093",
-    "rank": 93,
+    "id": "es-0097",
+    "rank": 97,
     "lemma": "llevar",
     "type": "глагол",
     "translation": "нести; носить; отвозить; занимать время",
@@ -1209,8 +1261,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0094",
-    "rank": 94,
+    "id": "es-0098",
+    "rank": 98,
     "lemma": "dejar",
     "type": "глагол",
     "translation": "оставлять; позволять; прекращать",
@@ -1222,8 +1274,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0095",
-    "rank": 95,
+    "id": "es-0099",
+    "rank": 99,
     "lemma": "nada",
     "type": "местоимение / наречие",
     "translation": "ничто; ничего",
@@ -1235,8 +1287,21 @@
     "status": "prototype"
   },
   {
-    "id": "es-0096",
-    "rank": 96,
+    "id": "es-0100",
+    "rank": 100,
+    "lemma": "nadie",
+    "type": "отрицательное местоимение",
+    "translation": "никто",
+    "forms": "nadie",
+    "example": "Nadie sabe la respuesta.",
+    "exampleRu": "Никто не знает ответа.",
+    "tag": "базовое",
+    "language": "es-419",
+    "status": "prototype"
+  },
+  {
+    "id": "es-0101",
+    "rank": 101,
     "lemma": "cada",
     "type": "определитель",
     "translation": "каждый",
@@ -1248,8 +1313,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0097",
-    "rank": 97,
+    "id": "es-0102",
+    "rank": 102,
     "lemma": "seguir",
     "type": "глагол",
     "translation": "следовать; продолжать",
@@ -1261,8 +1326,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0098",
-    "rank": 98,
+    "id": "es-0103",
+    "rank": 103,
     "lemma": "menos",
     "type": "наречие / определитель",
     "translation": "меньше; кроме",
@@ -1274,8 +1339,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0099",
-    "rank": 99,
+    "id": "es-0104",
+    "rank": 104,
     "lemma": "nuevo",
     "type": "прилагательное",
     "translation": "новый",
@@ -1287,8 +1352,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0100",
-    "rank": 100,
+    "id": "es-0105",
+    "rank": 105,
     "lemma": "encontrar",
     "type": "глагол",
     "translation": "находить; встречать",
@@ -1300,8 +1365,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0101",
-    "rank": 101,
+    "id": "es-0106",
+    "rank": 106,
     "lemma": "algo",
     "type": "местоимение / наречие",
     "translation": "что-то; немного",
@@ -1313,8 +1378,21 @@
     "status": "prototype"
   },
   {
-    "id": "es-0102",
-    "rank": 102,
+    "id": "es-0107",
+    "rank": 107,
+    "lemma": "alguien",
+    "type": "неопределённое местоимение",
+    "translation": "кто-то; кто-нибудь",
+    "forms": "alguien",
+    "example": "¿Hay alguien aquí?",
+    "exampleRu": "Здесь кто-нибудь есть?",
+    "tag": "базовое",
+    "language": "es-419",
+    "status": "prototype"
+  },
+  {
+    "id": "es-0108",
+    "rank": 108,
     "lemma": "solo",
     "type": "прилагательное / наречие",
     "translation": "один; только",
@@ -1326,8 +1404,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0103",
-    "rank": 103,
+    "id": "es-0109",
+    "rank": 109,
     "lemma": "llamar",
     "type": "глагол",
     "translation": "звать; звонить",
@@ -1339,8 +1417,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0104",
-    "rank": 104,
+    "id": "es-0110",
+    "rank": 110,
     "lemma": "venir",
     "type": "глагол",
     "translation": "приходить; приезжать",
@@ -1352,8 +1430,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0105",
-    "rank": 105,
+    "id": "es-0111",
+    "rank": 111,
     "lemma": "pensar",
     "type": "глагол",
     "translation": "думать; намереваться",
@@ -1365,8 +1443,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0106",
-    "rank": 106,
+    "id": "es-0112",
+    "rank": 112,
     "lemma": "salir",
     "type": "глагол",
     "translation": "выходить; уезжать",
@@ -1378,8 +1456,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0107",
-    "rank": 107,
+    "id": "es-0113",
+    "rank": 113,
     "lemma": "volver",
     "type": "глагол",
     "translation": "возвращаться; снова делать",
@@ -1391,8 +1469,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0108",
-    "rank": 108,
+    "id": "es-0114",
+    "rank": 114,
     "lemma": "tomar",
     "type": "глагол",
     "translation": "брать; пить; принимать",
@@ -1404,8 +1482,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0109",
-    "rank": 109,
+    "id": "es-0115",
+    "rank": 115,
     "lemma": "conocer",
     "type": "глагол",
     "translation": "знать; быть знакомым",
@@ -1417,8 +1495,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0110",
-    "rank": 110,
+    "id": "es-0116",
+    "rank": 116,
     "lemma": "vivir",
     "type": "глагол",
     "translation": "жить",
@@ -1430,8 +1508,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0111",
-    "rank": 111,
+    "id": "es-0117",
+    "rank": 117,
     "lemma": "sentir",
     "type": "глагол",
     "translation": "чувствовать; сожалеть",
@@ -1443,8 +1521,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0112",
-    "rank": 112,
+    "id": "es-0118",
+    "rank": 118,
     "lemma": "tratar",
     "type": "глагол",
     "translation": "пытаться; обращаться; быть о",
@@ -1456,8 +1534,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0113",
-    "rank": 113,
+    "id": "es-0119",
+    "rank": 119,
     "lemma": "mirar",
     "type": "глагол",
     "translation": "смотреть",
@@ -1469,8 +1547,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0114",
-    "rank": 114,
+    "id": "es-0120",
+    "rank": 120,
     "lemma": "contar",
     "type": "глагол",
     "translation": "считать; рассказывать",
@@ -1482,8 +1560,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0115",
-    "rank": 115,
+    "id": "es-0121",
+    "rank": 121,
     "lemma": "empezar",
     "type": "глагол",
     "translation": "начинать",
@@ -1495,8 +1573,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0116",
-    "rank": 116,
+    "id": "es-0122",
+    "rank": 122,
     "lemma": "esperar",
     "type": "глагол",
     "translation": "ждать; надеяться",
@@ -1508,8 +1586,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0117",
-    "rank": 117,
+    "id": "es-0123",
+    "rank": 123,
     "lemma": "buscar",
     "type": "глагол",
     "translation": "искать",
@@ -1521,8 +1599,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0118",
-    "rank": 118,
+    "id": "es-0124",
+    "rank": 124,
     "lemma": "existir",
     "type": "глагол",
     "translation": "существовать",
@@ -1534,8 +1612,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0119",
-    "rank": 119,
+    "id": "es-0125",
+    "rank": 125,
     "lemma": "entrar",
     "type": "глагол",
     "translation": "входить",
@@ -1547,8 +1625,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0120",
-    "rank": 120,
+    "id": "es-0126",
+    "rank": 126,
     "lemma": "trabajar",
     "type": "глагол",
     "translation": "работать",
@@ -1560,8 +1638,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0121",
-    "rank": 121,
+    "id": "es-0127",
+    "rank": 127,
     "lemma": "escribir",
     "type": "глагол",
     "translation": "писать",
@@ -1573,8 +1651,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0122",
-    "rank": 122,
+    "id": "es-0128",
+    "rank": 128,
     "lemma": "perder",
     "type": "глагол",
     "translation": "терять; проигрывать",
@@ -1586,8 +1664,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0123",
-    "rank": 123,
+    "id": "es-0129",
+    "rank": 129,
     "lemma": "producir",
     "type": "глагол",
     "translation": "производить; вызывать",
@@ -1599,8 +1677,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0124",
-    "rank": 124,
+    "id": "es-0130",
+    "rank": 130,
     "lemma": "ocurrir",
     "type": "глагол",
     "translation": "происходить; приходить в голову",
@@ -1612,8 +1690,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0125",
-    "rank": 125,
+    "id": "es-0131",
+    "rank": 131,
     "lemma": "entender",
     "type": "глагол",
     "translation": "понимать",
@@ -1625,8 +1703,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0126",
-    "rank": 126,
+    "id": "es-0132",
+    "rank": 132,
     "lemma": "pedir",
     "type": "глагол",
     "translation": "просить; заказывать",
@@ -1638,8 +1716,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0127",
-    "rank": 127,
+    "id": "es-0133",
+    "rank": 133,
     "lemma": "recibir",
     "type": "глагол",
     "translation": "получать; принимать",
@@ -1651,8 +1729,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0128",
-    "rank": 128,
+    "id": "es-0134",
+    "rank": 134,
     "lemma": "recordar",
     "type": "глагол",
     "translation": "помнить; напоминать",
@@ -1664,8 +1742,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0129",
-    "rank": 129,
+    "id": "es-0135",
+    "rank": 135,
     "lemma": "terminar",
     "type": "глагол",
     "translation": "заканчивать",
@@ -1677,8 +1755,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0130",
-    "rank": 130,
+    "id": "es-0136",
+    "rank": 136,
     "lemma": "permitir",
     "type": "глагол",
     "translation": "позволять",
@@ -1690,8 +1768,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0131",
-    "rank": 131,
+    "id": "es-0137",
+    "rank": 137,
     "lemma": "aparecer",
     "type": "глагол",
     "translation": "появляться",
@@ -1703,8 +1781,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0132",
-    "rank": 132,
+    "id": "es-0138",
+    "rank": 138,
     "lemma": "conseguir",
     "type": "глагол",
     "translation": "добывать; добиваться; суметь",
@@ -1716,8 +1794,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0133",
-    "rank": 133,
+    "id": "es-0139",
+    "rank": 139,
     "lemma": "comenzar",
     "type": "глагол",
     "translation": "начинать",
@@ -1729,8 +1807,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0134",
-    "rank": 134,
+    "id": "es-0140",
+    "rank": 140,
     "lemma": "servir",
     "type": "глагол",
     "translation": "служить; подавать; быть полезным",
@@ -1742,8 +1820,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0135",
-    "rank": 135,
+    "id": "es-0141",
+    "rank": 141,
     "lemma": "sacar",
     "type": "глагол",
     "translation": "вынимать; получать; фотографировать",
@@ -1755,8 +1833,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0136",
-    "rank": 136,
+    "id": "es-0142",
+    "rank": 142,
     "lemma": "necesitar",
     "type": "глагол",
     "translation": "нуждаться",
@@ -1768,8 +1846,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0137",
-    "rank": 137,
+    "id": "es-0143",
+    "rank": 143,
     "lemma": "mantener",
     "type": "глагол",
     "translation": "поддерживать; сохранять",
@@ -1781,8 +1859,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0138",
-    "rank": 138,
+    "id": "es-0144",
+    "rank": 144,
     "lemma": "resultar",
     "type": "глагол",
     "translation": "оказываться; получаться",
@@ -1794,8 +1872,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0139",
-    "rank": 139,
+    "id": "es-0145",
+    "rank": 145,
     "lemma": "leer",
     "type": "глагол",
     "translation": "читать",
@@ -1807,8 +1885,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0140",
-    "rank": 140,
+    "id": "es-0146",
+    "rank": 146,
     "lemma": "caer",
     "type": "глагол",
     "translation": "падать; нравиться",
@@ -1820,8 +1898,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0141",
-    "rank": 141,
+    "id": "es-0147",
+    "rank": 147,
     "lemma": "cambiar",
     "type": "глагол",
     "translation": "менять(ся)",
@@ -1833,8 +1911,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0142",
-    "rank": 142,
+    "id": "es-0148",
+    "rank": 148,
     "lemma": "presentar",
     "type": "глагол",
     "translation": "представлять; предъявлять",
@@ -1846,8 +1924,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0143",
-    "rank": 143,
+    "id": "es-0149",
+    "rank": 149,
     "lemma": "crear",
     "type": "глагол",
     "translation": "создавать",
@@ -1859,8 +1937,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0144",
-    "rank": 144,
+    "id": "es-0150",
+    "rank": 150,
     "lemma": "abrir",
     "type": "глагол",
     "translation": "открывать",
@@ -1872,8 +1950,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0145",
-    "rank": 145,
+    "id": "es-0151",
+    "rank": 151,
     "lemma": "considerar",
     "type": "глагол",
     "translation": "считать; рассматривать",
@@ -1885,8 +1963,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0146",
-    "rank": 146,
+    "id": "es-0152",
+    "rank": 152,
     "lemma": "oír",
     "type": "глагол",
     "translation": "слышать",
@@ -1898,8 +1976,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0147",
-    "rank": 147,
+    "id": "es-0153",
+    "rank": 153,
     "lemma": "acabar",
     "type": "глагол",
     "translation": "заканчивать; только что сделать",
@@ -1911,8 +1989,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0148",
-    "rank": 148,
+    "id": "es-0154",
+    "rank": 154,
     "lemma": "ganar",
     "type": "глагол",
     "translation": "выигрывать; зарабатывать",
@@ -1924,8 +2002,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0149",
-    "rank": 149,
+    "id": "es-0155",
+    "rank": 155,
     "lemma": "formar",
     "type": "глагол",
     "translation": "образовывать; формировать",
@@ -1937,8 +2015,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0150",
-    "rank": 150,
+    "id": "es-0156",
+    "rank": 156,
     "lemma": "traer",
     "type": "глагол",
     "translation": "приносить; привозить",
@@ -1950,8 +2028,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0151",
-    "rank": 151,
+    "id": "es-0157",
+    "rank": 157,
     "lemma": "partir",
     "type": "глагол",
     "translation": "уезжать; делить; отправляться",
@@ -1963,8 +2041,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0152",
-    "rank": 152,
+    "id": "es-0158",
+    "rank": 158,
     "lemma": "morir",
     "type": "глагол",
     "translation": "умирать",
@@ -1976,8 +2054,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0153",
-    "rank": 153,
+    "id": "es-0159",
+    "rank": 159,
     "lemma": "aceptar",
     "type": "глагол",
     "translation": "принимать; соглашаться",
@@ -1989,8 +2067,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0154",
-    "rank": 154,
+    "id": "es-0160",
+    "rank": 160,
     "lemma": "realizar",
     "type": "глагол",
     "translation": "осуществлять; проводить",
@@ -2002,8 +2080,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0155",
-    "rank": 155,
+    "id": "es-0161",
+    "rank": 161,
     "lemma": "suponer",
     "type": "глагол",
     "translation": "предполагать; означать",
@@ -2015,8 +2093,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0156",
-    "rank": 156,
+    "id": "es-0162",
+    "rank": 162,
     "lemma": "comprender",
     "type": "глагол",
     "translation": "понимать; включать",
@@ -2028,8 +2106,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0157",
-    "rank": 157,
+    "id": "es-0163",
+    "rank": 163,
     "lemma": "lograr",
     "type": "глагол",
     "translation": "добиваться; суметь",
@@ -2041,8 +2119,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0158",
-    "rank": 158,
+    "id": "es-0164",
+    "rank": 164,
     "lemma": "explicar",
     "type": "глагол",
     "translation": "объяснять",
@@ -2054,8 +2132,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0159",
-    "rank": 159,
+    "id": "es-0165",
+    "rank": 165,
     "lemma": "preguntar",
     "type": "глагол",
     "translation": "спрашивать",
@@ -2067,8 +2145,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0160",
-    "rank": 160,
+    "id": "es-0166",
+    "rank": 166,
     "lemma": "tocar",
     "type": "глагол",
     "translation": "трогать; играть; выпадать очередь",
@@ -2080,8 +2158,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0161",
-    "rank": 161,
+    "id": "es-0167",
+    "rank": 167,
     "lemma": "reconocer",
     "type": "глагол",
     "translation": "узнавать; признавать",
@@ -2093,8 +2171,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0162",
-    "rank": 162,
+    "id": "es-0168",
+    "rank": 168,
     "lemma": "estudiar",
     "type": "глагол",
     "translation": "учиться; изучать",
@@ -2106,8 +2184,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0163",
-    "rank": 163,
+    "id": "es-0169",
+    "rank": 169,
     "lemma": "alcanzar",
     "type": "глагол",
     "translation": "достигать; хватать; догонять",
@@ -2119,8 +2197,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0164",
-    "rank": 164,
+    "id": "es-0170",
+    "rank": 170,
     "lemma": "nacer",
     "type": "глагол",
     "translation": "рождаться",
@@ -2132,8 +2210,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0165",
-    "rank": 165,
+    "id": "es-0171",
+    "rank": 171,
     "lemma": "dirigir",
     "type": "глагол",
     "translation": "руководить; направлять",
@@ -2145,8 +2223,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0166",
-    "rank": 166,
+    "id": "es-0172",
+    "rank": 172,
     "lemma": "correr",
     "type": "глагол",
     "translation": "бежать",
@@ -2158,8 +2236,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0167",
-    "rank": 167,
+    "id": "es-0173",
+    "rank": 173,
     "lemma": "utilizar",
     "type": "глагол",
     "translation": "использовать",
@@ -2171,8 +2249,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0168",
-    "rank": 168,
+    "id": "es-0174",
+    "rank": 174,
     "lemma": "pagar",
     "type": "глагол",
     "translation": "платить",
@@ -2184,8 +2262,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0169",
-    "rank": 169,
+    "id": "es-0175",
+    "rank": 175,
     "lemma": "ayudar",
     "type": "глагол",
     "translation": "помогать",
@@ -2197,8 +2275,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0170",
-    "rank": 170,
+    "id": "es-0176",
+    "rank": 176,
     "lemma": "gustar",
     "type": "глагол",
     "translation": "нравиться",
@@ -2210,8 +2288,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0171",
-    "rank": 171,
+    "id": "es-0177",
+    "rank": 177,
     "lemma": "jugar",
     "type": "глагол",
     "translation": "играть",
@@ -2223,8 +2301,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0172",
-    "rank": 172,
+    "id": "es-0178",
+    "rank": 178,
     "lemma": "escuchar",
     "type": "глагол",
     "translation": "слушать",
@@ -2236,8 +2314,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0173",
-    "rank": 173,
+    "id": "es-0179",
+    "rank": 179,
     "lemma": "cumplir",
     "type": "глагол",
     "translation": "выполнять; исполняться (о возрасте)",
@@ -2249,8 +2327,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0174",
-    "rank": 174,
+    "id": "es-0180",
+    "rank": 180,
     "lemma": "ofrecer",
     "type": "глагол",
     "translation": "предлагать",
@@ -2262,8 +2340,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0175",
-    "rank": 175,
+    "id": "es-0181",
+    "rank": 181,
     "lemma": "descubrir",
     "type": "глагол",
     "translation": "обнаруживать; открывать",
@@ -2275,8 +2353,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0176",
-    "rank": 176,
+    "id": "es-0182",
+    "rank": 182,
     "lemma": "levantar",
     "type": "глагол",
     "translation": "поднимать; вставать",
@@ -2288,8 +2366,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0177",
-    "rank": 177,
+    "id": "es-0183",
+    "rank": 183,
     "lemma": "intentar",
     "type": "глагол",
     "translation": "пытаться",
@@ -2301,8 +2379,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0178",
-    "rank": 178,
+    "id": "es-0184",
+    "rank": 184,
     "lemma": "usar",
     "type": "глагол",
     "translation": "использовать; носить",
@@ -2314,8 +2392,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0179",
-    "rank": 179,
+    "id": "es-0185",
+    "rank": 185,
     "lemma": "decidir",
     "type": "глагол",
     "translation": "решать",
@@ -2327,8 +2405,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0180",
-    "rank": 180,
+    "id": "es-0186",
+    "rank": 186,
     "lemma": "repetir",
     "type": "глагол",
     "translation": "повторять",
@@ -2340,8 +2418,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0181",
-    "rank": 181,
+    "id": "es-0187",
+    "rank": 187,
     "lemma": "comer",
     "type": "глагол",
     "translation": "есть",
@@ -2353,8 +2431,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0182",
-    "rank": 182,
+    "id": "es-0188",
+    "rank": 188,
     "lemma": "beber",
     "type": "глагол",
     "translation": "пить",
@@ -2366,8 +2444,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0183",
-    "rank": 183,
+    "id": "es-0189",
+    "rank": 189,
     "lemma": "comprar",
     "type": "глагол",
     "translation": "покупать",
@@ -2379,8 +2457,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0184",
-    "rank": 184,
+    "id": "es-0190",
+    "rank": 190,
     "lemma": "vender",
     "type": "глагол",
     "translation": "продавать",
@@ -2392,8 +2470,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0185",
-    "rank": 185,
+    "id": "es-0191",
+    "rank": 191,
     "lemma": "cerrar",
     "type": "глагол",
     "translation": "закрывать",
@@ -2405,8 +2483,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0186",
-    "rank": 186,
+    "id": "es-0192",
+    "rank": 192,
     "lemma": "dormir",
     "type": "глагол",
     "translation": "спать",
@@ -2418,8 +2496,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0187",
-    "rank": 187,
+    "id": "es-0193",
+    "rank": 193,
     "lemma": "caminar",
     "type": "глагол",
     "translation": "ходить пешком",
@@ -2431,8 +2509,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0188",
-    "rank": 188,
+    "id": "es-0194",
+    "rank": 194,
     "lemma": "viajar",
     "type": "глагол",
     "translation": "путешествовать",
@@ -2444,8 +2522,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0189",
-    "rank": 189,
+    "id": "es-0195",
+    "rank": 195,
     "lemma": "cocinar",
     "type": "глагол",
     "translation": "готовить",
@@ -2457,8 +2535,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0190",
-    "rank": 190,
+    "id": "es-0196",
+    "rank": 196,
     "lemma": "aprender",
     "type": "глагол",
     "translation": "учить; узнавать",
@@ -2470,8 +2548,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0191",
-    "rank": 191,
+    "id": "es-0197",
+    "rank": 197,
     "lemma": "enseñar",
     "type": "глагол",
     "translation": "учить; показывать",
@@ -2483,8 +2561,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0192",
-    "rank": 192,
+    "id": "es-0198",
+    "rank": 198,
     "lemma": "enviar",
     "type": "глагол",
     "translation": "отправлять",
@@ -2496,8 +2574,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0193",
-    "rank": 193,
+    "id": "es-0199",
+    "rank": 199,
     "lemma": "contestar",
     "type": "глагол",
     "translation": "отвечать",
@@ -2509,8 +2587,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0194",
-    "rank": 194,
+    "id": "es-0200",
+    "rank": 200,
     "lemma": "elegir",
     "type": "глагол",
     "translation": "выбирать",
@@ -2522,8 +2600,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0195",
-    "rank": 195,
+    "id": "es-0201",
+    "rank": 201,
     "lemma": "olvidar",
     "type": "глагол",
     "translation": "забывать",
@@ -2535,8 +2613,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0196",
-    "rank": 196,
+    "id": "es-0202",
+    "rank": 202,
     "lemma": "preparar",
     "type": "глагол",
     "translation": "готовить; подготавливать",
@@ -2548,8 +2626,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0197",
-    "rank": 197,
+    "id": "es-0203",
+    "rank": 203,
     "lemma": "limpiar",
     "type": "глагол",
     "translation": "чистить; убирать",
@@ -2561,8 +2639,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0198",
-    "rank": 198,
+    "id": "es-0204",
+    "rank": 204,
     "lemma": "lavar",
     "type": "глагол",
     "translation": "мыть; стирать",
@@ -2574,8 +2652,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0199",
-    "rank": 199,
+    "id": "es-0205",
+    "rank": 205,
     "lemma": "manejar",
     "type": "глагол",
     "translation": "водить; управлять",
@@ -2587,8 +2665,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0200",
-    "rank": 200,
+    "id": "es-0206",
+    "rank": 206,
     "lemma": "conducir",
     "type": "глагол",
     "translation": "водить; вести",
@@ -2600,8 +2678,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0201",
-    "rank": 201,
+    "id": "es-0207",
+    "rank": 207,
     "lemma": "subir",
     "type": "глагол",
     "translation": "подниматься; загружать",
@@ -2613,8 +2691,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0202",
-    "rank": 202,
+    "id": "es-0208",
+    "rank": 208,
     "lemma": "bajar",
     "type": "глагол",
     "translation": "спускаться; снижать",
@@ -2626,8 +2704,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0203",
-    "rank": 203,
+    "id": "es-0209",
+    "rank": 209,
     "lemma": "romper",
     "type": "глагол",
     "translation": "ломать",
@@ -2639,8 +2717,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0204",
-    "rank": 204,
+    "id": "es-0210",
+    "rank": 210,
     "lemma": "arreglar",
     "type": "глагол",
     "translation": "чинить; приводить в порядок",
@@ -2652,8 +2730,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0205",
-    "rank": 205,
+    "id": "es-0211",
+    "rank": 211,
     "lemma": "encender",
     "type": "глагол",
     "translation": "включать; зажигать",
@@ -2665,8 +2743,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0206",
-    "rank": 206,
+    "id": "es-0212",
+    "rank": 212,
     "lemma": "apagar",
     "type": "глагол",
     "translation": "выключать; гасить",
@@ -2678,8 +2756,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0207",
-    "rank": 207,
+    "id": "es-0213",
+    "rank": 213,
     "lemma": "persona",
     "type": "существительное, ж.р.",
     "translation": "человек; лицо",
@@ -2691,8 +2769,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0208",
-    "rank": 208,
+    "id": "es-0214",
+    "rank": 214,
     "lemma": "casa",
     "type": "существительное, ж.р.",
     "translation": "дом",
@@ -2704,8 +2782,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0209",
-    "rank": 209,
+    "id": "es-0215",
+    "rank": 215,
     "lemma": "mundo",
     "type": "существительное, м.р.",
     "translation": "мир",
@@ -2717,8 +2795,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0210",
-    "rank": 210,
+    "id": "es-0216",
+    "rank": 216,
     "lemma": "lugar",
     "type": "существительное, м.р.",
     "translation": "место",
@@ -2730,8 +2808,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0211",
-    "rank": 211,
+    "id": "es-0217",
+    "rank": 217,
     "lemma": "país",
     "type": "существительное, м.р.",
     "translation": "страна",
@@ -2743,8 +2821,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0212",
-    "rank": 212,
+    "id": "es-0218",
+    "rank": 218,
     "lemma": "momento",
     "type": "существительное, м.р.",
     "translation": "момент",
@@ -2756,8 +2834,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0213",
-    "rank": 213,
+    "id": "es-0219",
+    "rank": 219,
     "lemma": "forma",
     "type": "существительное, ж.р.",
     "translation": "форма; способ",
@@ -2769,8 +2847,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0214",
-    "rank": 214,
+    "id": "es-0220",
+    "rank": 220,
     "lemma": "mujer",
     "type": "существительное, ж.р.",
     "translation": "женщина; жена",
@@ -2782,8 +2860,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0215",
-    "rank": 215,
+    "id": "es-0221",
+    "rank": 221,
     "lemma": "niño",
     "type": "существительное, м.р.",
     "translation": "ребёнок; мальчик",
@@ -2795,8 +2873,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0216",
-    "rank": 216,
+    "id": "es-0222",
+    "rank": 222,
     "lemma": "familia",
     "type": "существительное, ж.р.",
     "translation": "семья",
@@ -2808,8 +2886,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0217",
-    "rank": 217,
+    "id": "es-0223",
+    "rank": 223,
     "lemma": "mano",
     "type": "существительное, ж.р.",
     "translation": "рука; кисть",
@@ -2821,8 +2899,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0218",
-    "rank": 218,
+    "id": "es-0224",
+    "rank": 224,
     "lemma": "problema",
     "type": "существительное, м.р.",
     "translation": "проблема",
@@ -2834,8 +2912,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0219",
-    "rank": 219,
+    "id": "es-0225",
+    "rank": 225,
     "lemma": "caso",
     "type": "существительное, м.р.",
     "translation": "случай; дело",
@@ -2847,8 +2925,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0220",
-    "rank": 220,
+    "id": "es-0226",
+    "rank": 226,
     "lemma": "punto",
     "type": "существительное, м.р.",
     "translation": "точка; пункт; момент",
@@ -2860,8 +2938,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0221",
-    "rank": 221,
+    "id": "es-0227",
+    "rank": 227,
     "lemma": "gobierno",
     "type": "существительное, м.р.",
     "translation": "правительство; управление",
@@ -2873,8 +2951,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0222",
-    "rank": 222,
+    "id": "es-0228",
+    "rank": 228,
     "lemma": "ciudad",
     "type": "существительное, ж.р.",
     "translation": "город",
@@ -2886,8 +2964,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0223",
-    "rank": 223,
+    "id": "es-0229",
+    "rank": 229,
     "lemma": "nombre",
     "type": "существительное, м.р.",
     "translation": "имя; название",
@@ -2899,8 +2977,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0224",
-    "rank": 224,
+    "id": "es-0230",
+    "rank": 230,
     "lemma": "agua",
     "type": "существительное, ж.р.",
     "translation": "вода",
@@ -2912,8 +2990,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0225",
-    "rank": 225,
+    "id": "es-0231",
+    "rank": 231,
     "lemma": "noche",
     "type": "существительное, ж.р.",
     "translation": "ночь; вечер",
@@ -2925,8 +3003,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0226",
-    "rank": 226,
+    "id": "es-0232",
+    "rank": 232,
     "lemma": "madre",
     "type": "существительное, ж.р.",
     "translation": "мать",
@@ -2938,8 +3016,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0227",
-    "rank": 227,
+    "id": "es-0233",
+    "rank": 233,
     "lemma": "padre",
     "type": "существительное, м.р.",
     "translation": "отец; родитель",
@@ -2951,8 +3029,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0228",
-    "rank": 228,
+    "id": "es-0234",
+    "rank": 234,
     "lemma": "amigo",
     "type": "существительное, м.р.",
     "translation": "друг",
@@ -2964,8 +3042,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0229",
-    "rank": 229,
+    "id": "es-0235",
+    "rank": 235,
     "lemma": "dinero",
     "type": "существительное, м.р.",
     "translation": "деньги",
@@ -2977,8 +3055,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0230",
-    "rank": 230,
+    "id": "es-0236",
+    "rank": 236,
     "lemma": "historia",
     "type": "существительное, ж.р.",
     "translation": "история; рассказ",
@@ -2990,8 +3068,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0231",
-    "rank": 231,
+    "id": "es-0237",
+    "rank": 237,
     "lemma": "calle",
     "type": "существительное, ж.р.",
     "translation": "улица",
@@ -3003,8 +3081,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0232",
-    "rank": 232,
+    "id": "es-0238",
+    "rank": 238,
     "lemma": "comida",
     "type": "существительное, ж.р.",
     "translation": "еда; приём пищи",
@@ -3016,8 +3094,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0233",
-    "rank": 233,
+    "id": "es-0239",
+    "rank": 239,
     "lemma": "hora",
     "type": "существительное, ж.р.",
     "translation": "час; время",
@@ -3029,8 +3107,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0234",
-    "rank": 234,
+    "id": "es-0240",
+    "rank": 240,
     "lemma": "palabra",
     "type": "существительное, ж.р.",
     "translation": "слово",
@@ -3042,8 +3120,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0235",
-    "rank": 235,
+    "id": "es-0241",
+    "rank": 241,
     "lemma": "escuela",
     "type": "существительное, ж.р.",
     "translation": "школа",
@@ -3055,8 +3133,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0236",
-    "rank": 236,
+    "id": "es-0242",
+    "rank": 242,
     "lemma": "gente",
     "type": "существительное, ж.р., собират.",
     "translation": "люди",
@@ -3068,8 +3146,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0237",
-    "rank": 237,
+    "id": "es-0243",
+    "rank": 243,
     "lemma": "verdad",
     "type": "существительное, ж.р.",
     "translation": "правда",
@@ -3081,8 +3159,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0238",
-    "rank": 238,
+    "id": "es-0244",
+    "rank": 244,
     "lemma": "semana",
     "type": "существительное, ж.р.",
     "translation": "неделя",
@@ -3094,8 +3172,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0239",
-    "rank": 239,
+    "id": "es-0245",
+    "rank": 245,
     "lemma": "libro",
     "type": "существительное, м.р.",
     "translation": "книга",
@@ -3107,8 +3185,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0240",
-    "rank": 240,
+    "id": "es-0246",
+    "rank": 246,
     "lemma": "puerta",
     "type": "существительное, ж.р.",
     "translation": "дверь",
@@ -3120,8 +3198,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0241",
-    "rank": 241,
+    "id": "es-0247",
+    "rank": 247,
     "lemma": "mañana",
     "type": "существительное / наречие",
     "translation": "утро; завтра",
@@ -3133,8 +3211,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0242",
-    "rank": 242,
+    "id": "es-0248",
+    "rank": 248,
     "lemma": "hijo",
     "type": "существительное, м.р.",
     "translation": "сын; ребёнок",
@@ -3146,8 +3224,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0243",
-    "rank": 243,
+    "id": "es-0249",
+    "rank": 249,
     "lemma": "cabeza",
     "type": "существительное, ж.р.",
     "translation": "голова",
@@ -3159,8 +3237,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0244",
-    "rank": 244,
+    "id": "es-0250",
+    "rank": 250,
     "lemma": "lado",
     "type": "существительное, м.р.",
     "translation": "сторона; бок",
@@ -3172,8 +3250,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0245",
-    "rank": 245,
+    "id": "es-0251",
+    "rank": 251,
     "lemma": "señor",
     "type": "существительное, м.р.",
     "translation": "господин; мужчина",
@@ -3185,8 +3263,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0246",
-    "rank": 246,
+    "id": "es-0252",
+    "rank": 252,
     "lemma": "fin",
     "type": "существительное, м.р.",
     "translation": "конец; цель",
@@ -3198,8 +3276,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0247",
-    "rank": 247,
+    "id": "es-0253",
+    "rank": 253,
     "lemma": "mes",
     "type": "существительное, м.р.",
     "translation": "месяц",
@@ -3211,8 +3289,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0248",
-    "rank": 248,
+    "id": "es-0254",
+    "rank": 254,
     "lemma": "tipo",
     "type": "существительное, м.р.",
     "translation": "тип; вид; парень",
@@ -3224,8 +3302,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0249",
-    "rank": 249,
+    "id": "es-0255",
+    "rank": 255,
     "lemma": "ejemplo",
     "type": "существительное, м.р.",
     "translation": "пример",
@@ -3237,8 +3315,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0250",
-    "rank": 250,
+    "id": "es-0256",
+    "rank": 256,
     "lemma": "tema",
     "type": "существительное, м.р.",
     "translation": "тема; вопрос",
@@ -3250,8 +3328,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0251",
-    "rank": 251,
+    "id": "es-0257",
+    "rank": 257,
     "lemma": "grupo",
     "type": "существительное, м.р.",
     "translation": "группа",
@@ -3263,8 +3341,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0252",
-    "rank": 252,
+    "id": "es-0258",
+    "rank": 258,
     "lemma": "razón",
     "type": "существительное, ж.р.",
     "translation": "причина; правота",
@@ -3276,8 +3354,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0253",
-    "rank": 253,
+    "id": "es-0259",
+    "rank": 259,
     "lemma": "idea",
     "type": "существительное, ж.р.",
     "translation": "идея",
@@ -3289,8 +3367,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0254",
-    "rank": 254,
+    "id": "es-0260",
+    "rank": 260,
     "lemma": "cuerpo",
     "type": "существительное, м.р.",
     "translation": "тело",
@@ -3302,8 +3380,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0255",
-    "rank": 255,
+    "id": "es-0261",
+    "rank": 261,
     "lemma": "información",
     "type": "существительное, ж.р.",
     "translation": "информация",
@@ -3315,8 +3393,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0256",
-    "rank": 256,
+    "id": "es-0262",
+    "rank": 262,
     "lemma": "ojo",
     "type": "существительное, м.р.",
     "translation": "глаз",
@@ -3328,8 +3406,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0257",
-    "rank": 257,
+    "id": "es-0263",
+    "rank": 263,
     "lemma": "servicio",
     "type": "существительное, м.р.",
     "translation": "услуга; обслуживание; служба",
@@ -3341,8 +3419,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0258",
-    "rank": 258,
+    "id": "es-0264",
+    "rank": 264,
     "lemma": "minuto",
     "type": "существительное, м.р.",
     "translation": "минута",
@@ -3354,8 +3432,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0259",
-    "rank": 259,
+    "id": "es-0265",
+    "rank": 265,
     "lemma": "mesa",
     "type": "существительное, ж.р.",
     "translation": "стол",
@@ -3367,8 +3445,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0260",
-    "rank": 260,
+    "id": "es-0266",
+    "rank": 266,
     "lemma": "equipo",
     "type": "существительное, м.р.",
     "translation": "команда; оборудование",
@@ -3380,8 +3458,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0261",
-    "rank": 261,
+    "id": "es-0267",
+    "rank": 267,
     "lemma": "realidad",
     "type": "существительное, ж.р.",
     "translation": "реальность",
@@ -3393,8 +3471,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0262",
-    "rank": 262,
+    "id": "es-0268",
+    "rank": 268,
     "lemma": "educación",
     "type": "существительное, ж.р.",
     "translation": "образование; воспитание",
@@ -3406,8 +3484,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0263",
-    "rank": 263,
+    "id": "es-0269",
+    "rank": 269,
     "lemma": "voz",
     "type": "существительное, ж.р.",
     "translation": "голос",
@@ -3419,8 +3497,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0264",
-    "rank": 264,
+    "id": "es-0270",
+    "rank": 270,
     "lemma": "resultado",
     "type": "существительное, м.р.",
     "translation": "результат",
@@ -3432,8 +3510,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0265",
-    "rank": 265,
+    "id": "es-0271",
+    "rank": 271,
     "lemma": "padres",
     "type": "существительное, мн.ч.",
     "translation": "родители",
@@ -3445,8 +3523,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0266",
-    "rank": 266,
+    "id": "es-0272",
+    "rank": 272,
     "lemma": "oficina",
     "type": "существительное, ж.р.",
     "translation": "офис; кабинет",
@@ -3458,8 +3536,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0267",
-    "rank": 267,
+    "id": "es-0273",
+    "rank": 273,
     "lemma": "cambio",
     "type": "существительное, м.р.",
     "translation": "изменение; сдача; обмен",
@@ -3471,8 +3549,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0268",
-    "rank": 268,
+    "id": "es-0274",
+    "rank": 274,
     "lemma": "proceso",
     "type": "существительное, м.р.",
     "translation": "процесс",
@@ -3484,8 +3562,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0269",
-    "rank": 269,
+    "id": "es-0275",
+    "rank": 275,
     "lemma": "música",
     "type": "существительное, ж.р.",
     "translation": "музыка",
@@ -3497,8 +3575,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0270",
-    "rank": 270,
+    "id": "es-0276",
+    "rank": 276,
     "lemma": "juego",
     "type": "существительное, м.р.",
     "translation": "игра",
@@ -3510,8 +3588,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0271",
-    "rank": 271,
+    "id": "es-0277",
+    "rank": 277,
     "lemma": "mercado",
     "type": "существительное, м.р.",
     "translation": "рынок",
@@ -3523,8 +3601,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0272",
-    "rank": 272,
+    "id": "es-0278",
+    "rank": 278,
     "lemma": "sentido",
     "type": "существительное, м.р.",
     "translation": "смысл; чувство; направление",
@@ -3536,8 +3614,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0273",
-    "rank": 273,
+    "id": "es-0279",
+    "rank": 279,
     "lemma": "centro",
     "type": "существительное, м.р.",
     "translation": "центр",
@@ -3549,8 +3627,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0274",
-    "rank": 274,
+    "id": "es-0280",
+    "rank": 280,
     "lemma": "programa",
     "type": "существительное, м.р.",
     "translation": "программа",
@@ -3562,8 +3640,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0275",
-    "rank": 275,
+    "id": "es-0281",
+    "rank": 281,
     "lemma": "pregunta",
     "type": "существительное, ж.р.",
     "translation": "вопрос",
@@ -3575,8 +3653,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0276",
-    "rank": 276,
+    "id": "es-0282",
+    "rank": 282,
     "lemma": "trabajador",
     "type": "существительное / прилагательное",
     "translation": "работник; трудолюбивый",
@@ -3588,8 +3666,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0277",
-    "rank": 277,
+    "id": "es-0283",
+    "rank": 283,
     "lemma": "empresa",
     "type": "существительное, ж.р.",
     "translation": "компания; предприятие",
@@ -3601,8 +3679,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0278",
-    "rank": 278,
+    "id": "es-0284",
+    "rank": 284,
     "lemma": "número",
     "type": "существительное, м.р.",
     "translation": "число; номер",
@@ -3614,8 +3692,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0279",
-    "rank": 279,
+    "id": "es-0285",
+    "rank": 285,
     "lemma": "segundo",
     "type": "существительное / числительное",
     "translation": "секунда; второй",
@@ -3627,8 +3705,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0280",
-    "rank": 280,
+    "id": "es-0286",
+    "rank": 286,
     "lemma": "cuenta",
     "type": "существительное, ж.р.",
     "translation": "счёт; аккаунт; расчёт",
@@ -3640,8 +3718,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0281",
-    "rank": 281,
+    "id": "es-0287",
+    "rank": 287,
     "lemma": "calidad",
     "type": "существительное, ж.р.",
     "translation": "качество",
@@ -3653,8 +3731,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0282",
-    "rank": 282,
+    "id": "es-0288",
+    "rank": 288,
     "lemma": "calor",
     "type": "существительное, м.р.",
     "translation": "жара; тепло",
@@ -3666,8 +3744,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0283",
-    "rank": 283,
+    "id": "es-0289",
+    "rank": 289,
     "lemma": "aire",
     "type": "существительное, м.р.",
     "translation": "воздух",
@@ -3679,8 +3757,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0284",
-    "rank": 284,
+    "id": "es-0290",
+    "rank": 290,
     "lemma": "papel",
     "type": "существительное, м.р.",
     "translation": "бумага; роль",
@@ -3692,8 +3770,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0285",
-    "rank": 285,
+    "id": "es-0291",
+    "rank": 291,
     "lemma": "interés",
     "type": "существительное, м.р.",
     "translation": "интерес; процент",
@@ -3705,8 +3783,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0286",
-    "rank": 286,
+    "id": "es-0292",
+    "rank": 292,
     "lemma": "película",
     "type": "существительное, ж.р.",
     "translation": "фильм",
@@ -3718,8 +3796,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0287",
-    "rank": 287,
+    "id": "es-0293",
+    "rank": 293,
     "lemma": "noticia",
     "type": "существительное, ж.р.",
     "translation": "новость",
@@ -3731,8 +3809,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0288",
-    "rank": 288,
+    "id": "es-0294",
+    "rank": 294,
     "lemma": "libertad",
     "type": "существительное, ж.р.",
     "translation": "свобода",
@@ -3744,8 +3822,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0289",
-    "rank": 289,
+    "id": "es-0295",
+    "rank": 295,
     "lemma": "derecho",
     "type": "существительное, м.р.",
     "translation": "право; юриспруденция",
@@ -3757,8 +3835,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0290",
-    "rank": 290,
+    "id": "es-0296",
+    "rank": 296,
     "lemma": "sistema",
     "type": "существительное, м.р.",
     "translation": "система",
@@ -3770,8 +3848,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0291",
-    "rank": 291,
+    "id": "es-0297",
+    "rank": 297,
     "lemma": "carro",
     "type": "существительное, м.р.",
     "translation": "автомобиль",
@@ -3783,8 +3861,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0292",
-    "rank": 292,
+    "id": "es-0298",
+    "rank": 298,
     "lemma": "coche",
     "type": "существительное, м.р.",
     "translation": "автомобиль (понятно, чаще Испания)",
@@ -3796,8 +3874,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0293",
-    "rank": 293,
+    "id": "es-0299",
+    "rank": 299,
     "lemma": "computadora",
     "type": "существительное, ж.р.",
     "translation": "компьютер",
@@ -3809,8 +3887,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0294",
-    "rank": 294,
+    "id": "es-0300",
+    "rank": 300,
     "lemma": "teléfono",
     "type": "существительное, м.р.",
     "translation": "телефон",
@@ -3822,8 +3900,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0295",
-    "rank": 295,
+    "id": "es-0301",
+    "rank": 301,
     "lemma": "mensaje",
     "type": "существительное, м.р.",
     "translation": "сообщение",
@@ -3835,8 +3913,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0296",
-    "rank": 296,
+    "id": "es-0302",
+    "rank": 302,
     "lemma": "foto",
     "type": "существительное, ж.р.",
     "translation": "фотография",
@@ -3848,8 +3926,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0297",
-    "rank": 297,
+    "id": "es-0303",
+    "rank": 303,
     "lemma": "internet",
     "type": "существительное, м.р.",
     "translation": "интернет",
@@ -3861,8 +3939,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0298",
-    "rank": 298,
+    "id": "es-0304",
+    "rank": 304,
     "lemma": "archivo",
     "type": "существительное, м.р.",
     "translation": "файл; архив",
@@ -3874,8 +3952,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0299",
-    "rank": 299,
+    "id": "es-0305",
+    "rank": 305,
     "lemma": "contraseña",
     "type": "существительное, ж.р.",
     "translation": "пароль",
@@ -3887,8 +3965,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0300",
-    "rank": 300,
+    "id": "es-0306",
+    "rank": 306,
     "lemma": "tienda",
     "type": "существительное, ж.р.",
     "translation": "магазин",
@@ -3900,8 +3978,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0301",
-    "rank": 301,
+    "id": "es-0307",
+    "rank": 307,
     "lemma": "precio",
     "type": "существительное, м.р.",
     "translation": "цена",
@@ -3913,8 +3991,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0302",
-    "rank": 302,
+    "id": "es-0308",
+    "rank": 308,
     "lemma": "tarjeta",
     "type": "существительное, ж.р.",
     "translation": "карта; карточка",
@@ -3926,8 +4004,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0303",
-    "rank": 303,
+    "id": "es-0309",
+    "rank": 309,
     "lemma": "efectivo",
     "type": "существительное / прилагательное",
     "translation": "наличные; эффективный",
@@ -3939,8 +4017,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0304",
-    "rank": 304,
+    "id": "es-0310",
+    "rank": 310,
     "lemma": "banco",
     "type": "существительное, м.р.",
     "translation": "банк; скамья",
@@ -3952,8 +4030,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0305",
-    "rank": 305,
+    "id": "es-0311",
+    "rank": 311,
     "lemma": "restaurante",
     "type": "существительное, м.р.",
     "translation": "ресторан",
@@ -3965,8 +4043,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0306",
-    "rank": 306,
+    "id": "es-0312",
+    "rank": 312,
     "lemma": "café",
     "type": "существительное, м.р.",
     "translation": "кофе; кафе",
@@ -3978,8 +4056,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0307",
-    "rank": 307,
+    "id": "es-0313",
+    "rank": 313,
     "lemma": "pan",
     "type": "существительное, м.р.",
     "translation": "хлеб",
@@ -3991,8 +4069,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0308",
-    "rank": 308,
+    "id": "es-0314",
+    "rank": 314,
     "lemma": "leche",
     "type": "существительное, ж.р.",
     "translation": "молоко",
@@ -4004,8 +4082,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0309",
-    "rank": 309,
+    "id": "es-0315",
+    "rank": 315,
     "lemma": "carne",
     "type": "существительное, ж.р.",
     "translation": "мясо",
@@ -4017,8 +4095,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0310",
-    "rank": 310,
+    "id": "es-0316",
+    "rank": 316,
     "lemma": "pollo",
     "type": "существительное, м.р.",
     "translation": "курица; цыплёнок",
@@ -4030,8 +4108,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0311",
-    "rank": 311,
+    "id": "es-0317",
+    "rank": 317,
     "lemma": "arroz",
     "type": "существительное, м.р.",
     "translation": "рис",
@@ -4043,8 +4121,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0312",
-    "rank": 312,
+    "id": "es-0318",
+    "rank": 318,
     "lemma": "fruta",
     "type": "существительное, ж.р.",
     "translation": "фрукт; фрукты",
@@ -4056,8 +4134,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0313",
-    "rank": 313,
+    "id": "es-0319",
+    "rank": 319,
     "lemma": "desayuno",
     "type": "существительное, м.р.",
     "translation": "завтрак",
@@ -4069,8 +4147,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0314",
-    "rank": 314,
+    "id": "es-0320",
+    "rank": 320,
     "lemma": "almuerzo",
     "type": "существительное, м.р.",
     "translation": "обед",
@@ -4082,8 +4160,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0315",
-    "rank": 315,
+    "id": "es-0321",
+    "rank": 321,
     "lemma": "cena",
     "type": "существительное, ж.р.",
     "translation": "ужин",
@@ -4095,8 +4173,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0316",
-    "rank": 316,
+    "id": "es-0322",
+    "rank": 322,
     "lemma": "cuarto",
     "type": "существительное / числительное",
     "translation": "комната; четверть; четвёртый",
@@ -4108,8 +4186,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0317",
-    "rank": 317,
+    "id": "es-0323",
+    "rank": 323,
     "lemma": "habitación",
     "type": "существительное, ж.р.",
     "translation": "комната; номер",
@@ -4121,8 +4199,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0318",
-    "rank": 318,
+    "id": "es-0324",
+    "rank": 324,
     "lemma": "baño",
     "type": "существительное, м.р.",
     "translation": "ванная; туалет",
@@ -4134,8 +4212,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0319",
-    "rank": 319,
+    "id": "es-0325",
+    "rank": 325,
     "lemma": "cocina",
     "type": "существительное, ж.р.",
     "translation": "кухня; кухня как традиция",
@@ -4147,8 +4225,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0320",
-    "rank": 320,
+    "id": "es-0326",
+    "rank": 326,
     "lemma": "cama",
     "type": "существительное, ж.р.",
     "translation": "кровать",
@@ -4160,8 +4238,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0321",
-    "rank": 321,
+    "id": "es-0327",
+    "rank": 327,
     "lemma": "ropa",
     "type": "существительное, ж.р.",
     "translation": "одежда",
@@ -4173,8 +4251,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0322",
-    "rank": 322,
+    "id": "es-0328",
+    "rank": 328,
     "lemma": "zapato",
     "type": "существительное, м.р.",
     "translation": "туфля; ботинок",
@@ -4186,8 +4264,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0323",
-    "rank": 323,
+    "id": "es-0329",
+    "rank": 329,
     "lemma": "llave",
     "type": "существительное, ж.р.",
     "translation": "ключ",
@@ -4199,8 +4277,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0324",
-    "rank": 324,
+    "id": "es-0330",
+    "rank": 330,
     "lemma": "ventana",
     "type": "существительное, ж.р.",
     "translation": "окно",
@@ -4212,8 +4290,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0325",
-    "rank": 325,
+    "id": "es-0331",
+    "rank": 331,
     "lemma": "luz",
     "type": "существительное, ж.р.",
     "translation": "свет; лампа",
@@ -4225,8 +4303,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0326",
-    "rank": 326,
+    "id": "es-0332",
+    "rank": 332,
     "lemma": "salud",
     "type": "существительное, ж.р.",
     "translation": "здоровье; «будь здоров»",
@@ -4238,8 +4316,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0327",
-    "rank": 327,
+    "id": "es-0333",
+    "rank": 333,
     "lemma": "doctor",
     "type": "существительное, м.р.",
     "translation": "врач; доктор",
@@ -4251,8 +4329,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0328",
-    "rank": 328,
+    "id": "es-0334",
+    "rank": 334,
     "lemma": "hospital",
     "type": "существительное, м.р.",
     "translation": "больница",
@@ -4264,8 +4342,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0329",
-    "rank": 329,
+    "id": "es-0335",
+    "rank": 335,
     "lemma": "dolor",
     "type": "существительное, м.р.",
     "translation": "боль",
@@ -4277,8 +4355,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0330",
-    "rank": 330,
+    "id": "es-0336",
+    "rank": 336,
     "lemma": "medicina",
     "type": "существительное, ж.р.",
     "translation": "лекарство; медицина",
@@ -4290,8 +4368,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0331",
-    "rank": 331,
+    "id": "es-0337",
+    "rank": 337,
     "lemma": "cita",
     "type": "существительное, ж.р.",
     "translation": "встреча; запись; цитата",
@@ -4303,8 +4381,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0332",
-    "rank": 332,
+    "id": "es-0338",
+    "rank": 338,
     "lemma": "viaje",
     "type": "существительное, м.р.",
     "translation": "поездка; путешествие",
@@ -4316,8 +4394,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0333",
-    "rank": 333,
+    "id": "es-0339",
+    "rank": 339,
     "lemma": "avión",
     "type": "существительное, м.р.",
     "translation": "самолёт",
@@ -4329,8 +4407,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0334",
-    "rank": 334,
+    "id": "es-0340",
+    "rank": 340,
     "lemma": "tren",
     "type": "существительное, м.р.",
     "translation": "поезд",
@@ -4342,8 +4420,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0335",
-    "rank": 335,
+    "id": "es-0341",
+    "rank": 341,
     "lemma": "autobús",
     "type": "существительное, м.р.",
     "translation": "автобус",
@@ -4355,8 +4433,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0336",
-    "rank": 336,
+    "id": "es-0342",
+    "rank": 342,
     "lemma": "estación",
     "type": "существительное, ж.р.",
     "translation": "станция; вокзал; сезон",
@@ -4368,8 +4446,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0337",
-    "rank": 337,
+    "id": "es-0343",
+    "rank": 343,
     "lemma": "aeropuerto",
     "type": "существительное, м.р.",
     "translation": "аэропорт",
@@ -4381,8 +4459,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0338",
-    "rank": 338,
+    "id": "es-0344",
+    "rank": 344,
     "lemma": "camino",
     "type": "существительное, м.р.",
     "translation": "дорога; путь",
@@ -4394,8 +4472,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0339",
-    "rank": 339,
+    "id": "es-0345",
+    "rank": 345,
     "lemma": "mapa",
     "type": "существительное, м.р.",
     "translation": "карта",
@@ -4407,8 +4485,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0340",
-    "rank": 340,
+    "id": "es-0346",
+    "rank": 346,
     "lemma": "trabajo",
     "type": "существительное, м.р.",
     "translation": "работа; труд",
@@ -4420,8 +4498,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0341",
-    "rank": 341,
+    "id": "es-0347",
+    "rank": 347,
     "lemma": "reunión",
     "type": "существительное, ж.р.",
     "translation": "встреча; собрание",
@@ -4433,8 +4511,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0342",
-    "rank": 342,
+    "id": "es-0348",
+    "rank": 348,
     "lemma": "proyecto",
     "type": "существительное, м.р.",
     "translation": "проект",
@@ -4446,8 +4524,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0343",
-    "rank": 343,
+    "id": "es-0349",
+    "rank": 349,
     "lemma": "jefe",
     "type": "существительное",
     "translation": "начальник",
@@ -4459,8 +4537,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0344",
-    "rank": 344,
+    "id": "es-0350",
+    "rank": 350,
     "lemma": "empleado",
     "type": "существительное / прилагательное",
     "translation": "сотрудник; занятый, применённый",
@@ -4472,8 +4550,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0345",
-    "rank": 345,
+    "id": "es-0351",
+    "rank": 351,
     "lemma": "clase",
     "type": "существительное, ж.р.",
     "translation": "занятие; класс; вид",
@@ -4485,8 +4563,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0346",
-    "rank": 346,
+    "id": "es-0352",
+    "rank": 352,
     "lemma": "universidad",
     "type": "существительное, ж.р.",
     "translation": "университет",
@@ -4498,8 +4576,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0347",
-    "rank": 347,
+    "id": "es-0353",
+    "rank": 353,
     "lemma": "idioma",
     "type": "существительное, м.р.",
     "translation": "язык",
@@ -4511,8 +4589,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0348",
-    "rank": 348,
+    "id": "es-0354",
+    "rank": 354,
     "lemma": "respuesta",
     "type": "существительное, ж.р.",
     "translation": "ответ",
@@ -4524,8 +4602,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0349",
-    "rank": 349,
+    "id": "es-0355",
+    "rank": 355,
     "lemma": "fiesta",
     "type": "существительное, ж.р.",
     "translation": "праздник; вечеринка",
@@ -4537,8 +4615,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0350",
-    "rank": 350,
+    "id": "es-0356",
+    "rank": 356,
     "lemma": "partido",
     "type": "существительное, м.р.",
     "translation": "матч; партия",
@@ -4550,8 +4628,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0351",
-    "rank": 351,
+    "id": "es-0357",
+    "rank": 357,
     "lemma": "parque",
     "type": "существительное, м.р.",
     "translation": "парк",
@@ -4563,8 +4641,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0352",
-    "rank": 352,
+    "id": "es-0358",
+    "rank": 358,
     "lemma": "playa",
     "type": "существительное, ж.р.",
     "translation": "пляж",
@@ -4576,8 +4654,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0353",
-    "rank": 353,
+    "id": "es-0359",
+    "rank": 359,
     "lemma": "mar",
     "type": "существительное, м./ж.р.",
     "translation": "море",
@@ -4589,8 +4667,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0354",
-    "rank": 354,
+    "id": "es-0360",
+    "rank": 360,
     "lemma": "tiempo libre",
     "type": "устойчивое сочетание",
     "translation": "свободное время",
@@ -4602,8 +4680,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0355",
-    "rank": 355,
+    "id": "es-0361",
+    "rank": 361,
     "lemma": "bueno",
     "type": "прилагательное",
     "translation": "хороший",
@@ -4615,8 +4693,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0356",
-    "rank": 356,
+    "id": "es-0362",
+    "rank": 362,
     "lemma": "malo",
     "type": "прилагательное",
     "translation": "плохой",
@@ -4628,8 +4706,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0357",
-    "rank": 357,
+    "id": "es-0363",
+    "rank": 363,
     "lemma": "mejor",
     "type": "прилагательное / наречие",
     "translation": "лучший; лучше",
@@ -4641,8 +4719,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0358",
-    "rank": 358,
+    "id": "es-0364",
+    "rank": 364,
     "lemma": "peor",
     "type": "прилагательное / наречие",
     "translation": "худший; хуже",
@@ -4654,8 +4732,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0359",
-    "rank": 359,
+    "id": "es-0365",
+    "rank": 365,
     "lemma": "mayor",
     "type": "прилагательное",
     "translation": "больший; старший",
@@ -4667,8 +4745,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0360",
-    "rank": 360,
+    "id": "es-0366",
+    "rank": 366,
     "lemma": "menor",
     "type": "прилагательное",
     "translation": "меньший; младший; несовершеннолетний",
@@ -4680,8 +4758,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0361",
-    "rank": 361,
+    "id": "es-0367",
+    "rank": 367,
     "lemma": "importante",
     "type": "прилагательное",
     "translation": "важный",
@@ -4693,8 +4771,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0362",
-    "rank": 362,
+    "id": "es-0368",
+    "rank": 368,
     "lemma": "posible",
     "type": "прилагательное",
     "translation": "возможный",
@@ -4706,8 +4784,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0363",
-    "rank": 363,
+    "id": "es-0369",
+    "rank": 369,
     "lemma": "necesario",
     "type": "прилагательное",
     "translation": "необходимый",
@@ -4719,8 +4797,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0364",
-    "rank": 364,
+    "id": "es-0370",
+    "rank": 370,
     "lemma": "diferente",
     "type": "прилагательное",
     "translation": "другой; отличающийся",
@@ -4732,8 +4810,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0365",
-    "rank": 365,
+    "id": "es-0371",
+    "rank": 371,
     "lemma": "igual",
     "type": "прилагательное / наречие",
     "translation": "одинаковый; всё равно; так же",
@@ -4745,8 +4823,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0366",
-    "rank": 366,
+    "id": "es-0372",
+    "rank": 372,
     "lemma": "fácil",
     "type": "прилагательное",
     "translation": "лёгкий; простой",
@@ -4758,8 +4836,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0367",
-    "rank": 367,
+    "id": "es-0373",
+    "rank": 373,
     "lemma": "difícil",
     "type": "прилагательное",
     "translation": "трудный",
@@ -4771,8 +4849,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0368",
-    "rank": 368,
+    "id": "es-0374",
+    "rank": 374,
     "lemma": "claro",
     "type": "прилагательное / наречие",
     "translation": "ясный; светлый; конечно",
@@ -4784,8 +4862,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0369",
-    "rank": 369,
+    "id": "es-0375",
+    "rank": 375,
     "lemma": "seguro",
     "type": "прилагательное / существительное",
     "translation": "уверенный; безопасный; страховка",
@@ -4797,8 +4875,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0370",
-    "rank": 370,
+    "id": "es-0376",
+    "rank": 376,
     "lemma": "cierto",
     "type": "прилагательное",
     "translation": "определённый; верный",
@@ -4810,8 +4888,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0371",
-    "rank": 371,
+    "id": "es-0377",
+    "rank": 377,
     "lemma": "largo",
     "type": "прилагательное",
     "translation": "длинный",
@@ -4823,8 +4901,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0372",
-    "rank": 372,
+    "id": "es-0378",
+    "rank": 378,
     "lemma": "corto",
     "type": "прилагательное",
     "translation": "короткий",
@@ -4836,8 +4914,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0373",
-    "rank": 373,
+    "id": "es-0379",
+    "rank": 379,
     "lemma": "alto",
     "type": "прилагательное",
     "translation": "высокий; громкий",
@@ -4849,8 +4927,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0374",
-    "rank": 374,
+    "id": "es-0380",
+    "rank": 380,
     "lemma": "bajo",
     "type": "прилагательное / предлог",
     "translation": "низкий; под",
@@ -4862,8 +4940,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0375",
-    "rank": 375,
+    "id": "es-0381",
+    "rank": 381,
     "lemma": "rápido",
     "type": "прилагательное / наречие",
     "translation": "быстрый; быстро",
@@ -4875,8 +4953,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0376",
-    "rank": 376,
+    "id": "es-0382",
+    "rank": 382,
     "lemma": "lento",
     "type": "прилагательное / наречие",
     "translation": "медленный; медленно",
@@ -4888,8 +4966,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0377",
-    "rank": 377,
+    "id": "es-0383",
+    "rank": 383,
     "lemma": "fuerte",
     "type": "прилагательное / наречие",
     "translation": "сильный; крепкий; громко",
@@ -4901,21 +4979,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0378",
-    "rank": 378,
-    "lemma": "débil",
-    "type": "прилагательное",
-    "translation": "слабый",
-    "forms": "débil, débiles",
-    "example": "Después de la enfermedad se sentía débil.",
-    "exampleRu": "После болезни он чувствовал слабость.",
-    "tag": "описание",
-    "language": "es-419",
-    "status": "prototype"
-  },
-  {
-    "id": "es-0379",
-    "rank": 379,
+    "id": "es-0384",
+    "rank": 384,
     "lemma": "joven",
     "type": "прилагательное / существительное",
     "translation": "молодой; молодой человек",
@@ -4927,8 +4992,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0380",
-    "rank": 380,
+    "id": "es-0385",
+    "rank": 385,
     "lemma": "viejo",
     "type": "прилагательное",
     "translation": "старый",
@@ -4940,8 +5005,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0381",
-    "rank": 381,
+    "id": "es-0386",
+    "rank": 386,
     "lemma": "pequeño",
     "type": "прилагательное",
     "translation": "маленький",
@@ -4953,8 +5018,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0382",
-    "rank": 382,
+    "id": "es-0387",
+    "rank": 387,
     "lemma": "bonito",
     "type": "прилагательное",
     "translation": "красивый; милый",
@@ -4966,21 +5031,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0383",
-    "rank": 383,
-    "lemma": "feo",
-    "type": "прилагательное",
-    "translation": "некрасивый; неприятный",
-    "forms": "feo, fea, feos, feas",
-    "example": "Hace un tiempo feo hoy.",
-    "exampleRu": "Сегодня плохая погода.",
-    "tag": "описание",
-    "language": "es-419",
-    "status": "prototype"
-  },
-  {
-    "id": "es-0384",
-    "rank": 384,
+    "id": "es-0388",
+    "rank": 388,
     "lemma": "feliz",
     "type": "прилагательное",
     "translation": "счастливый",
@@ -4992,8 +5044,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0385",
-    "rank": 385,
+    "id": "es-0389",
+    "rank": 389,
     "lemma": "triste",
     "type": "прилагательное",
     "translation": "грустный",
@@ -5005,8 +5057,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0386",
-    "rank": 386,
+    "id": "es-0390",
+    "rank": 390,
     "lemma": "cansado",
     "type": "прилагательное",
     "translation": "уставший",
@@ -5018,8 +5070,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0387",
-    "rank": 387,
+    "id": "es-0391",
+    "rank": 391,
     "lemma": "ocupado",
     "type": "прилагательное",
     "translation": "занятый",
@@ -5031,8 +5083,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0388",
-    "rank": 388,
+    "id": "es-0392",
+    "rank": 392,
     "lemma": "libre",
     "type": "прилагательное",
     "translation": "свободный; свободно",
@@ -5044,8 +5096,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0389",
-    "rank": 389,
+    "id": "es-0393",
+    "rank": 393,
     "lemma": "listo",
     "type": "прилагательное",
     "translation": "готовый; сообразительный",
@@ -5057,8 +5109,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0390",
-    "rank": 390,
+    "id": "es-0394",
+    "rank": 394,
     "lemma": "abierto",
     "type": "прилагательное / причастие",
     "translation": "открытый",
@@ -5070,8 +5122,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0391",
-    "rank": 391,
+    "id": "es-0395",
+    "rank": 395,
     "lemma": "cerrado",
     "type": "прилагательное / причастие",
     "translation": "закрытый",
@@ -5083,8 +5135,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0392",
-    "rank": 392,
+    "id": "es-0396",
+    "rank": 396,
     "lemma": "caliente",
     "type": "прилагательное",
     "translation": "горячий; тёплый",
@@ -5096,8 +5148,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0393",
-    "rank": 393,
+    "id": "es-0397",
+    "rank": 397,
     "lemma": "frío",
     "type": "прилагательное / существительное",
     "translation": "холодный; холод",
@@ -5109,8 +5161,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0394",
-    "rank": 394,
+    "id": "es-0398",
+    "rank": 398,
     "lemma": "limpio",
     "type": "прилагательное",
     "translation": "чистый",
@@ -5122,21 +5174,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0395",
-    "rank": 395,
-    "lemma": "sucio",
-    "type": "прилагательное",
-    "translation": "грязный",
-    "forms": "sucio, sucia, sucios, sucias",
-    "example": "Tus zapatos están sucios.",
-    "exampleRu": "Твои ботинки грязные.",
-    "tag": "описание",
-    "language": "es-419",
-    "status": "prototype"
-  },
-  {
-    "id": "es-0396",
-    "rank": 396,
+    "id": "es-0399",
+    "rank": 399,
     "lemma": "caro",
     "type": "прилагательное",
     "translation": "дорогой",
@@ -5148,8 +5187,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0397",
-    "rank": 397,
+    "id": "es-0400",
+    "rank": 400,
     "lemma": "barato",
     "type": "прилагательное",
     "translation": "дешёвый",
@@ -5161,8 +5200,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0398",
-    "rank": 398,
+    "id": "es-0401",
+    "rank": 401,
     "lemma": "lleno",
     "type": "прилагательное",
     "translation": "полный; заполненный",
@@ -5174,21 +5213,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0399",
-    "rank": 399,
-    "lemma": "vacío",
-    "type": "прилагательное",
-    "translation": "пустой",
-    "forms": "vacío, vacía, vacíos, vacías",
-    "example": "El vaso está vacío.",
-    "exampleRu": "Стакан пуст.",
-    "tag": "описание",
-    "language": "es-419",
-    "status": "prototype"
-  },
-  {
-    "id": "es-0400",
-    "rank": 400,
+    "id": "es-0402",
+    "rank": 402,
     "lemma": "cerca",
     "type": "наречие",
     "translation": "близко",
@@ -5200,8 +5226,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0401",
-    "rank": 401,
+    "id": "es-0403",
+    "rank": 403,
     "lemma": "lejos",
     "type": "наречие",
     "translation": "далеко",
@@ -5213,8 +5239,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0402",
-    "rank": 402,
+    "id": "es-0404",
+    "rank": 404,
     "lemma": "aquí",
     "type": "наречие",
     "translation": "здесь; сюда",
@@ -5226,8 +5252,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0403",
-    "rank": 403,
+    "id": "es-0405",
+    "rank": 405,
     "lemma": "allí",
     "type": "наречие",
     "translation": "там",
@@ -5239,8 +5265,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0404",
-    "rank": 404,
+    "id": "es-0406",
+    "rank": 406,
     "lemma": "ahí",
     "type": "наречие",
     "translation": "там; вот там",
@@ -5252,8 +5278,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0405",
-    "rank": 405,
+    "id": "es-0407",
+    "rank": 407,
     "lemma": "hoy",
     "type": "наречие",
     "translation": "сегодня",
@@ -5265,8 +5291,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0406",
-    "rank": 406,
+    "id": "es-0408",
+    "rank": 408,
     "lemma": "ayer",
     "type": "наречие",
     "translation": "вчера",
@@ -5278,8 +5304,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0407",
-    "rank": 407,
+    "id": "es-0409",
+    "rank": 409,
     "lemma": "tarde",
     "type": "наречие / существительное",
     "translation": "поздно; вечер",
@@ -5291,8 +5317,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0408",
-    "rank": 408,
+    "id": "es-0410",
+    "rank": 410,
     "lemma": "temprano",
     "type": "наречие",
     "translation": "рано",
@@ -5304,8 +5330,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0409",
-    "rank": 409,
+    "id": "es-0411",
+    "rank": 411,
     "lemma": "nunca",
     "type": "наречие",
     "translation": "никогда",
@@ -5317,8 +5343,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0410",
-    "rank": 410,
+    "id": "es-0412",
+    "rank": 412,
     "lemma": "casi",
     "type": "наречие",
     "translation": "почти",
@@ -5330,8 +5356,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0411",
-    "rank": 411,
+    "id": "es-0413",
+    "rank": 413,
     "lemma": "luego",
     "type": "наречие",
     "translation": "потом; затем",
@@ -5343,8 +5369,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0412",
-    "rank": 412,
+    "id": "es-0414",
+    "rank": 414,
     "lemma": "antes",
     "type": "наречие",
     "translation": "раньше; до",
@@ -5356,8 +5382,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0413",
-    "rank": 413,
+    "id": "es-0415",
+    "rank": 415,
     "lemma": "todavía",
     "type": "наречие",
     "translation": "ещё; всё ещё",
@@ -5369,8 +5395,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0414",
-    "rank": 414,
+    "id": "es-0416",
+    "rank": 416,
     "lemma": "quizá",
     "type": "наречие",
     "translation": "возможно",
@@ -5382,8 +5408,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0415",
-    "rank": 415,
+    "id": "es-0417",
+    "rank": 417,
     "lemma": "pronto",
     "type": "наречие",
     "translation": "скоро; быстро",
@@ -5395,8 +5421,8 @@
     "status": "prototype"
   },
   {
-    "id": "es-0416",
-    "rank": 416,
+    "id": "es-0418",
+    "rank": 418,
     "lemma": "juntos",
     "type": "наречие / прилагательное",
     "translation": "вместе",
@@ -5408,40 +5434,14 @@
     "status": "prototype"
   },
   {
-    "id": "es-0417",
-    "rank": 417,
-    "lemma": "aparte",
-    "type": "наречие / прилагательное",
-    "translation": "отдельно; кроме того",
-    "forms": "aparte",
-    "example": "Quiero hablar contigo aparte.",
-    "exampleRu": "Я хочу поговорить с тобой наедине.",
-    "tag": "базовое",
-    "language": "es-419",
-    "status": "prototype"
-  },
-  {
-    "id": "es-0418",
-    "rank": 418,
+    "id": "es-0419",
+    "rank": 419,
     "lemma": "afuera",
     "type": "наречие",
     "translation": "снаружи; наружу",
     "forms": "неизменяемое",
     "example": "Te espero afuera del edificio.",
     "exampleRu": "Я жду тебя у здания.",
-    "tag": "место",
-    "language": "es-419",
-    "status": "prototype"
-  },
-  {
-    "id": "es-0419",
-    "rank": 419,
-    "lemma": "adentro",
-    "type": "наречие",
-    "translation": "внутри; внутрь",
-    "forms": "неизменяемое",
-    "example": "Hace frío; vamos adentro.",
-    "exampleRu": "Холодно; пойдём внутрь.",
     "tag": "место",
     "language": "es-419",
     "status": "prototype"
