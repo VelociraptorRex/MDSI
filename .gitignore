@@ -1,0 +1,5 @@
+node_modules/
+dist/
+local-package/
+.DS_Store
+npm-debug.log*

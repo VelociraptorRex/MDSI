@@ -26,7 +26,7 @@ const manifest = {
   version,
   filename:path.basename(output),
   quizletFilename:`MDSI-es-419-v${version}-Quizlet.txt`,
-  polyglotFilename:`MDSI-es-419-v${version}-Polyglot.xlsx`,
+  polyglotFilename:`MDSI-es-419-v${version}-Polyglot.xls`,
   quizletCards:quizletRows.length,
   polyglotCards:quizletRows.length,
   quizletLexicalCards:quizletCounts.lexicon,

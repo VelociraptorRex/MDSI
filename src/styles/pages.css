@@ -261,3 +261,24 @@
 .pattern-study-action{margin-top:20px}.pattern-study-action a{font-size:9px;letter-spacing:.04em}
 @media(max-width:900px){.irregular-verb-card{grid-template-columns:1fr}.irregular-verb-tenses{grid-template-columns:1fr 1fr 1fr}}
 @media(max-width:700px){.translation-table-toolbar{align-items:flex-start;flex-direction:column}.wide-grammar-table table{min-width:760px}.irregular-verb-tenses{grid-template-columns:1fr}.irregular-examples>div,.adverb-formation-grid{grid-template-columns:1fr}.irregular-examples small{margin-bottom:7px}.embedded-translation-table table{min-width:650px}}
+#conjugations .person-form-table,
+#conjugations .person-form-table tbody,
+#conjugations .person-form-table tr,
+#conjugations .person-form-table th,
+#conjugations .person-form-table td {
+  background: transparent !important;
+}
+#ser-estar-hay .person-form-table,
+#ser-estar-hay .person-form-table tbody,
+#ser-estar-hay .person-form-table tr,
+#ser-estar-hay .person-form-table th,
+#ser-estar-hay .person-form-table td {
+  background: transparent !important;
+}
+#irregular .person-form-table,
+#irregular .person-form-table tbody,
+#irregular .person-form-table tr,
+#irregular .person-form-table th,
+#irregular .person-form-table td {
+  background: transparent !important;
+}

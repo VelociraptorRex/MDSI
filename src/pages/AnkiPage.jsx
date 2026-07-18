@@ -43,7 +43,7 @@ export function AnkiPage() {
             <div className="anki-hero-actions">
               <a className="button primary" href={ankiHref} download><FileArchive size={17}/> Anki · скачать .apkg</a>
               <a className="button secondary" href={quizletHref} download><FileText size={17}/> Quizlet · скачать .txt</a>
-              <a className="button secondary" href={polyglotHref} download><FileSpreadsheet size={17}/> Полиглот · скачать .xlsx</a>
+              <a className="button secondary" href={polyglotHref} download><FileSpreadsheet size={17}/> Полиглот · скачать .xls</a>
               <span><BrainCircuit size={15}/>{manifest.totalCards.toLocaleString("ru-RU")} в Anki · {manifest.quizletCards.toLocaleString("ru-RU")} в Quizlet и Полиглоте</span>
             </div>
           </div>
@@ -110,7 +110,7 @@ export function AnkiPage() {
             <div className="card-download-links">
               <a href={ankiHref} download>Anki .apkg <ArrowRight size={15}/></a>
               <a href={quizletHref} download>Quizlet .txt <ArrowRight size={15}/></a>
-              <a href={polyglotHref} download>Полиглот .xlsx <ArrowRight size={15}/></a>
+              <a href={polyglotHref} download>Полиглот .xls <ArrowRight size={15}/></a>
             </div>
           </div>
         </section>
